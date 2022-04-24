@@ -21,13 +21,13 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Sun, 24 Apr 2022 12:32:30 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 24 Apr 2022 12:37:15 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
         
             <item>
-                <title>Ruby on Rails divise</title>
+                <title>Ruby on Rails devise</title>
                 <link>https://example.com/posts/ruby_on_rails_divise/</link>
                 <guid isPermaLink="true">https://example.com/posts/ruby_on_rails_divise/</guid>
                 <pubDate>Sat, 23 Apr 2022 14:08:47 &#43;0800</pubDate>
