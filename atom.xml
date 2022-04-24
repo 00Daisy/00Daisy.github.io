@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-04-24T14:06:11&#43;08:00</updated>
+    <updated>2022-04-24T16:14:32&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -18,8 +18,8 @@
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
         <entry>
             <title type="text">Ruby on Rails devise</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_divise/" />
-            <id>https://example.com/posts/ruby_on_rails_divise/</id>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_devise/" />
+            <id>https://example.com/posts/ruby_on_rails_devise/</id>
             <updated>2022-04-24T13:01:00&#43;08:00</updated>
             <published>2022-04-23T14:08:47&#43;08:00</published>
             <author>
