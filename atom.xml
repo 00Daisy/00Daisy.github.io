@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-04-23T19:50:22&#43;08:00</updated>
+    <updated>2022-04-24T12:32:30&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Ruby on Rails divise</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_divise/" />
             <id>https://example.com/posts/ruby_on_rails_divise/</id>
-            <updated>2022-04-23T18:44:35&#43;08:00</updated>
+            <updated>2022-04-24T12:30:11&#43;08:00</updated>
             <published>2022-04-23T14:08:47&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -238,6 +238,9 @@ config/initializers/devise.rb config/locales/devise.en.yml 接著在終端機的
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;到這邊為止，就可以看到一個基本的登入頁面了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;參考資料:https://youtu.be/jd1gOhpETIA&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
             
             
