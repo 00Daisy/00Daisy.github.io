@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-04-24T13:01:08&#43;08:00</updated>
+    <updated>2022-04-24T14:06:11&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -259,26 +259,26 @@ config/initializers/devise.rb config/locales/devise.en.yml 接著在終端機的
             <title type="text">Ruby on Rails CRUD</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_curd/" />
             <id>https://example.com/posts/ruby_on_rails_curd/</id>
-            <updated>2022-04-19T10:52:51&#43;08:00</updated>
+            <updated>2022-04-24T14:00:36&#43;08:00</updated>
             <published>2022-04-16T02:13:13&#43;08:00</published>
             <author>
                     <name>Daisy</name>
                     <uri>https://io-oi.me/</uri>
                     <email>ysiad926@gmail.com</email>
                     </author>
-            <summary type="html">候選人票選系統純手工打造 ．基本新增修改刪除介紹 ．使用vscode編輯  ．參考資料:為你自己學Ruby On Rails 00 開始之前 step 1. 使用指定Rails版本生成專案:
+            <summary type="html">候選人票選系統純手工打造 ．基本新增修改刪除介紹
+．使用vscode編輯
+．參考資料: 為你自己學Ruby On Rails
+00 開始之前 step 1. 使用指定Rails版本生成專案:
 rails _版本_ new 專案名
 % rails _6.1.5_ new hello_rails step 2. 進到該資料夾 cd hello_rails git版控初始化 git init
 step 3. 第一次commit git add . git commit -m&amp;quot;init commit&amp;quot;
 step 4. 確定環境正常運作 rails s 進到localhost:3000確認畫面</summary>
             
                 <content type="html">&lt;h1 id=&#34;候選人票選系統純手工打造&#34;&gt;候選人票選系統純手工打造&lt;/h1&gt;
-&lt;br&gt;
-．基本新增修改刪除介紹
-&lt;br&gt;
-．使用vscode編輯
-&lt;/br&gt;
-．參考資料:為你自己學Ruby On Rails
+&lt;p&gt;．基本新增修改刪除介紹&lt;/p&gt;
+&lt;p&gt;．使用vscode編輯&lt;/p&gt;
+&lt;p&gt;．參考資料: &lt;a href=&#34;https://railsbook.tw/&#34;&gt;為你自己學Ruby On Rails&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;00-開始之前&#34;&gt;00 開始之前&lt;/h2&gt;
 &lt;p&gt;step 1. 使用指定Rails版本生成專案:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;rails _版本_ new 專案名&lt;/code&gt;&lt;/p&gt;

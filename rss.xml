@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Sun, 24 Apr 2022 13:01:08 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 24 Apr 2022 14:06:11 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -267,12 +267,9 @@
                 
                 
                     <description>&lt;h1 id=&#34;候選人票選系統純手工打造&#34;&gt;候選人票選系統純手工打造&lt;/h1&gt;
-&lt;br&gt;
-．基本新增修改刪除介紹
-&lt;br&gt;
-．使用vscode編輯
-&lt;/br&gt;
-．參考資料:為你自己學Ruby On Rails
+&lt;p&gt;．基本新增修改刪除介紹&lt;/p&gt;
+&lt;p&gt;．使用vscode編輯&lt;/p&gt;
+&lt;p&gt;．參考資料: &lt;a href=&#34;https://railsbook.tw/&#34;&gt;為你自己學Ruby On Rails&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;00-開始之前&#34;&gt;00 開始之前&lt;/h2&gt;
 &lt;p&gt;step 1. 使用指定Rails版本生成專案:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;rails _版本_ new 專案名&lt;/code&gt;&lt;/p&gt;
