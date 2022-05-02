@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-04-29T23:32:32&#43;08:00</updated>
+    <updated>2022-05-02T23:33:35&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -257,8 +257,8 @@ config/initializers/devise.rb config/locales/devise.en.yml 接著在終端機的
     
         <entry>
             <title type="text">Ruby on Rails CRUD</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_curd/" />
-            <id>https://example.com/posts/ruby_on_rails_curd/</id>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_crud/" />
+            <id>https://example.com/posts/ruby_on_rails_crud/</id>
             <updated>2022-04-24T14:00:36&#43;08:00</updated>
             <published>2022-04-16T02:13:13&#43;08:00</published>
             <author>
@@ -1128,7 +1128,7 @@ Rails 7.0.2.3
             <title type="text">Beginner JavaScript Notes</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/java_script_notes/" />
             <id>https://example.com/posts/java_script_notes/</id>
-            <updated>2022-04-23T18:42:25&#43;08:00</updated>
+            <updated>2022-05-02T23:22:33&#43;08:00</updated>
             <published>2022-04-16T01:25:06&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -1139,7 +1139,7 @@ Rails 7.0.2.3
 1 2  let age age = 20   常數則否，一定要同時進行，如:
 1  const myage = 18   所謂動態型別的程式語言是指，在運行期間才做數據類型檢查的語言。即動態類型語言編緝程式時，永遠不用給任何變量指定數據類型。 該語言會在第一次賦值給變量時，在內部將數據類型記錄下來
 並且充許在運行周期裡，儲存不同類型的數據。 例如:
-1 2  let message = 2; //數值 message = &amp;#34;Hello World&amp;#34; //轉換成字串   命名方式  可使用包含字母、數字、$、_ 首字符不能是數字 使用駝峰式命名法(如:myName)  八大數據類型 table bigint boolean undefined object number string null symbol</summary>
+1 2  let message = 2; //數值 message = &amp;#34;Hello World&amp;#34; //轉換成字串   命名方式  可使用包含字母、數字、$、_ 首字符不能是數字 使用駝峰式命名法(如:myName)  八大資料型別    原始型別(Primitive Type) 物件型別( Object Type)     Boolean Object   Null    Undefined    Number    Bigint    String    Symbol     使用typeof 運算子可以幫助你判斷型別，其中函式（function）和陣列（array）、日期（date）皆為物件(Object)的一種，function 是可呼叫的物件，而 array 是結構較嚴謹的物件。</summary>
             
                 <content type="html">&lt;p&gt;JavaScript是一種動態型別的程式語言(Dynamically Typed Language)，使用變量(Variable)及常量(Constant)來儲存數據。變數可以先宣告，再賦值，如:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1180,16 +1180,46 @@ Rails 7.0.2.3
 &lt;li&gt;首字符不能是數字&lt;/li&gt;
 &lt;li&gt;使用駝峰式命名法(如:myName)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;八大數據類型&#34;&gt;八大數據類型&lt;/h3&gt;
-&lt;p&gt;table
-bigint
-boolean
-undefined
-object
-number
-string
-null
-symbol&lt;/p&gt;
+&lt;h3 id=&#34;八大資料型別&#34;&gt;八大資料型別&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;原始型別(Primitive Type)&lt;/th&gt;
+&lt;th&gt;物件型別( Object Type)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Boolean&lt;/td&gt;
+&lt;td&gt;Object&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Null&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Undefined&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Number&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bigint&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Symbol&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;使用&lt;code&gt;typeof&lt;/code&gt; 運算子可以幫助你判斷型別，其中函式（function）和陣列（array）、日期（date）皆為物件(Object)的一種，function 是可呼叫的物件，而 array 是結構較嚴謹的物件。&lt;/p&gt;
 </content>
             
             
