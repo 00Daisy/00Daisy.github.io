@@ -21,10 +21,57 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Mon, 02 May 2022 23:33:35 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 04 May 2022 09:44:25 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>Rails_payment_gateway</title>
+                <link>https://example.com/posts/rails_payment_gateway/</link>
+                <guid isPermaLink="true">https://example.com/posts/rails_payment_gateway/</guid>
+                <pubDate>Tue, 03 May 2022 21:41:50 &#43;0800</pubDate>
+                
+                    <author>ysiad926@gmail.com (Daisy)</author>
+                
+                
+                
+                    <description>&lt;h1 id=&#34;用rails串接第三方支付&#34;&gt;用Rails串接第三方支付&lt;/h1&gt;
+&lt;p&gt;MVC&lt;/p&gt;
+&lt;p&gt;M = Model 產生訂單的邏輯，比如&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;驗證
+&lt;code&gt;validates&lt;/code&gt;(使用者名字、金額、訂單編號&lt;code&gt;username&lt;/code&gt; 、&lt;code&gt;amount&lt;/code&gt;、 &lt;code&gt;order_no&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;before_create&lt;/code&gt;
+在本例中是定義&lt;code&gt;build_order_no&lt;/code&gt;這個方法&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;enum&lt;/code&gt;
+在本例中是使用在付款方式的值設定&lt;code&gt;pay_type&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;V &lt;br&gt;
+C = Controller 流程控制(產生東西、做什麼事情)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;before_create : 在 rails model 的callback，代表這筆資料被建立的時候我要做什麼事情，呼叫什麼方法。接著可以自己定義方法來使用。
+enum : 列舉&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Ruby on Rails devise</title>

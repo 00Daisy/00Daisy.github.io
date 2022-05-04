@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-02T23:33:35&#43;08:00</updated>
+    <updated>2022-05-04T09:44:25&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,63 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">Rails_payment_gateway</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/rails_payment_gateway/" />
+            <id>https://example.com/posts/rails_payment_gateway/</id>
+            <updated>2022-05-04T09:44:05&#43;08:00</updated>
+            <published>2022-05-03T21:41:50&#43;08:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">用Rails串接第三方支付 MVC
+M = Model 產生訂單的邏輯，比如
+  驗證 validates(使用者名字、金額、訂單編號username 、amount、 order_no)
+  before_create 在本例中是定義build_order_no這個方法
+  enum 在本例中是使用在付款方式的值設定pay_type)
+  V C = Controller 流程控制(產生東西、做什麼事情)
+ before_create : 在 rails model 的callback，代表這筆資料被建立的時候我要做什麼事情，呼叫什麼方法。接著可以自己定義方法來使用。 enum : 列舉
+ </summary>
+            
+                <content type="html">&lt;h1 id=&#34;用rails串接第三方支付&#34;&gt;用Rails串接第三方支付&lt;/h1&gt;
+&lt;p&gt;MVC&lt;/p&gt;
+&lt;p&gt;M = Model 產生訂單的邏輯，比如&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;驗證
+&lt;code&gt;validates&lt;/code&gt;(使用者名字、金額、訂單編號&lt;code&gt;username&lt;/code&gt; 、&lt;code&gt;amount&lt;/code&gt;、 &lt;code&gt;order_no&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;before_create&lt;/code&gt;
+在本例中是定義&lt;code&gt;build_order_no&lt;/code&gt;這個方法&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;enum&lt;/code&gt;
+在本例中是使用在付款方式的值設定&lt;code&gt;pay_type&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;V &lt;br&gt;
+C = Controller 流程控制(產生東西、做什麼事情)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;before_create : 在 rails model 的callback，代表這筆資料被建立的時候我要做什麼事情，呼叫什麼方法。接著可以自己定義方法來使用。
+enum : 列舉&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Ruby on Rails devise</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_devise/" />
