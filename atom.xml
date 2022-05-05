@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-04T09:44:25&#43;08:00</updated>
+    <updated>2022-05-05T23:21:06&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -1185,7 +1185,7 @@ Rails 7.0.2.3
             <title type="text">Beginner JavaScript Notes</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/java_script_notes/" />
             <id>https://example.com/posts/java_script_notes/</id>
-            <updated>2022-05-02T23:22:33&#43;08:00</updated>
+            <updated>2022-05-05T23:20:53&#43;08:00</updated>
             <published>2022-04-16T01:25:06&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -1277,6 +1277,17 @@ Rails 7.0.2.3
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;使用&lt;code&gt;typeof&lt;/code&gt; 運算子可以幫助你判斷型別，其中函式（function）和陣列（array）、日期（date）皆為物件(Object)的一種，function 是可呼叫的物件，而 array 是結構較嚴謹的物件。&lt;/p&gt;
+&lt;h3 id=&#34;async-await&#34;&gt;Async Await&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;promise&lt;/code&gt;的出現，目標是為了解決callback hell的現象，而&lt;code&gt;Async Await&lt;/code&gt;則是為了讓非同步執行變得更簡潔，更直觀&lt;/p&gt;
+&lt;p&gt;callback -&amp;gt; promise -&amp;gt; Async Await&lt;/p&gt;
+&lt;p&gt;特點:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;更貼近同步執行程式碼&lt;/li&gt;
+&lt;li&gt;概念是由&lt;code&gt;promise&lt;/code&gt;基礎上演變&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Async Await&lt;/code&gt;會返回&lt;code&gt;promise object&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Await&lt;/code&gt;關鍵字只能在&lt;code&gt;Async function&lt;/code&gt;裡使用，必須尾隨&lt;code&gt;promise object&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;try catch&lt;/code&gt;語句捕捉&lt;code&gt;Async Await&lt;/code&gt;出現的錯誤&lt;/li&gt;
+&lt;/ol&gt;
 </content>
             
             

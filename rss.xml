@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Wed, 04 May 2022 09:44:25 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 05 May 2022 23:21:06 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -1244,6 +1244,17 @@ Rails 7.0.2.3
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;使用&lt;code&gt;typeof&lt;/code&gt; 運算子可以幫助你判斷型別，其中函式（function）和陣列（array）、日期（date）皆為物件(Object)的一種，function 是可呼叫的物件，而 array 是結構較嚴謹的物件。&lt;/p&gt;
+&lt;h3 id=&#34;async-await&#34;&gt;Async Await&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;promise&lt;/code&gt;的出現，目標是為了解決callback hell的現象，而&lt;code&gt;Async Await&lt;/code&gt;則是為了讓非同步執行變得更簡潔，更直觀&lt;/p&gt;
+&lt;p&gt;callback -&amp;gt; promise -&amp;gt; Async Await&lt;/p&gt;
+&lt;p&gt;特點:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;更貼近同步執行程式碼&lt;/li&gt;
+&lt;li&gt;概念是由&lt;code&gt;promise&lt;/code&gt;基礎上演變&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Async Await&lt;/code&gt;會返回&lt;code&gt;promise object&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Await&lt;/code&gt;關鍵字只能在&lt;code&gt;Async function&lt;/code&gt;裡使用，必須尾隨&lt;code&gt;promise object&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;try catch&lt;/code&gt;語句捕捉&lt;code&gt;Async Await&lt;/code&gt;出現的錯誤&lt;/li&gt;
+&lt;/ol&gt;
 </description>
                 
                 
