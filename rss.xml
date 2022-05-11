@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Tue, 10 May 2022 10:54:34 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 10 May 2022 11:49:41 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -103,9 +103,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;就有英文介面及中文介面
-&lt;img src=&#34;https://example.com/static/image/i18n.en.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;../../static/image/i18n.png&#34; alt=&#34;&#34;&gt;
-step. 4 切換多國語系&lt;/p&gt;
+&lt;img src=&#34;https://example.com/resources/_gen/assets/images/i18n.en.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/resources/_gen/assets/images/i18n.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/static/images/i18n.en.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;step. 4 切換多國語系&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在&lt;code&gt;app/controllers/application_controller.rb&lt;/code&gt;新增以下這段&lt;/li&gt;
 &lt;/ol&gt;
