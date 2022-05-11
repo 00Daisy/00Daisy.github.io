@@ -21,10 +21,41 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Tue, 10 May 2022 11:49:41 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 11 May 2022 17:42:27 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>好用工具 LICEcap</title>
+                <link>https://example.com/posts/licecap/</link>
+                <guid isPermaLink="true">https://example.com/posts/licecap/</guid>
+                <pubDate>Wed, 11 May 2022 17:24:45 &#43;0800</pubDate>
+                
+                    <author>ysiad926@gmail.com (Daisy)</author>
+                
+                
+                
+                    <description>&lt;h3 id=&#34;licecap可錄製畫面直接存成gif&#34;&gt;LICEcap可錄製畫面直接存成gif&lt;/h3&gt;
+&lt;p&gt;在專案的使用上非常方便，可以馬上呈現出你製作的功能，讓一起開發的組員一目瞭然。&lt;/p&gt;
+&lt;p&gt;Mac跟Windows都可以使用 &lt;br&gt;
+&lt;a href=&#34;https://www.cockos.com/licecap/&#34;&gt;官網下載&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mac使用者記得下載後，到
+&lt;code&gt;系統偏好設定&lt;/code&gt; -&amp;gt; &lt;code&gt;安全性與隱私權&lt;/code&gt; -&amp;gt; &lt;code&gt;螢幕錄製&lt;/code&gt; 裡&lt;/p&gt;
+&lt;p&gt;把&lt;code&gt;LICEcap&lt;/code&gt;打勾(反灰不能編輯時請按視窗左下角的鎖頭，即可登入權限編輯)&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Rails I18n</title>

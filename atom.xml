@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-10T11:49:41&#43;08:00</updated>
+    <updated>2022-05-11T17:42:27&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,43 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">好用工具 LICEcap</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/licecap/" />
+            <id>https://example.com/posts/licecap/</id>
+            <updated>2022-05-11T17:42:24&#43;08:00</updated>
+            <published>2022-05-11T17:24:45&#43;08:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">LICEcap可錄製畫面直接存成gif 在專案的使用上非常方便，可以馬上呈現出你製作的功能，讓一起開發的組員一目瞭然。
+Mac跟Windows都可以使用 官網下載
+Mac使用者記得下載後，到 系統偏好設定 -&amp;gt; 安全性與隱私權 -&amp;gt; 螢幕錄製 裡
+把LICEcap打勾(反灰不能編輯時請按視窗左下角的鎖頭，即可登入權限編輯)</summary>
+            
+                <content type="html">&lt;h3 id=&#34;licecap可錄製畫面直接存成gif&#34;&gt;LICEcap可錄製畫面直接存成gif&lt;/h3&gt;
+&lt;p&gt;在專案的使用上非常方便，可以馬上呈現出你製作的功能，讓一起開發的組員一目瞭然。&lt;/p&gt;
+&lt;p&gt;Mac跟Windows都可以使用 &lt;br&gt;
+&lt;a href=&#34;https://www.cockos.com/licecap/&#34;&gt;官網下載&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mac使用者記得下載後，到
+&lt;code&gt;系統偏好設定&lt;/code&gt; -&amp;gt; &lt;code&gt;安全性與隱私權&lt;/code&gt; -&amp;gt; &lt;code&gt;螢幕錄製&lt;/code&gt; 裡&lt;/p&gt;
+&lt;p&gt;把&lt;code&gt;LICEcap&lt;/code&gt;打勾(反灰不能編輯時請按視窗左下角的鎖頭，即可登入權限編輯)&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Rails I18n</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/rails_i18n/" />
