@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-11T17:42:27&#43;08:00</updated>
+    <updated>2022-05-14T23:31:09&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -1371,7 +1371,7 @@ Rails 7.0.2.3
             <title type="text">Beginner JavaScript Notes</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/java_script_notes/" />
             <id>https://example.com/posts/java_script_notes/</id>
-            <updated>2022-05-05T23:20:53&#43;08:00</updated>
+            <updated>2022-05-14T23:31:02&#43;08:00</updated>
             <published>2022-04-16T01:25:06&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -1463,6 +1463,13 @@ Rails 7.0.2.3
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;使用&lt;code&gt;typeof&lt;/code&gt; 運算子可以幫助你判斷型別，其中函式（function）和陣列（array）、日期（date）皆為物件(Object)的一種，function 是可呼叫的物件，而 array 是結構較嚴謹的物件。&lt;/p&gt;
+&lt;h3 id=&#34;function-函數&#34;&gt;Function 函數&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;函數是一個行為(action)&lt;/li&gt;
+&lt;li&gt;一般只執行一個功能&lt;/li&gt;
+&lt;li&gt;參數可以配默認值&lt;code&gt;參數 = &amp;quot;默認值&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;可以返回或不返回值，返回值時需使用&lt;code&gt;return&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;async-await&#34;&gt;Async Await&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;promise&lt;/code&gt;的出現，目標是為了解決callback hell的現象，而&lt;code&gt;Async Await&lt;/code&gt;則是為了讓非同步執行變得更簡潔，更直觀&lt;/p&gt;
 &lt;p&gt;callback -&amp;gt; promise -&amp;gt; Async Await&lt;/p&gt;

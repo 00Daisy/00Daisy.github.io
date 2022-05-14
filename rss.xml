@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Wed, 11 May 2022 17:42:27 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 14 May 2022 23:31:09 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -1415,6 +1415,13 @@ Rails 7.0.2.3
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;使用&lt;code&gt;typeof&lt;/code&gt; 運算子可以幫助你判斷型別，其中函式（function）和陣列（array）、日期（date）皆為物件(Object)的一種，function 是可呼叫的物件，而 array 是結構較嚴謹的物件。&lt;/p&gt;
+&lt;h3 id=&#34;function-函數&#34;&gt;Function 函數&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;函數是一個行為(action)&lt;/li&gt;
+&lt;li&gt;一般只執行一個功能&lt;/li&gt;
+&lt;li&gt;參數可以配默認值&lt;code&gt;參數 = &amp;quot;默認值&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;可以返回或不返回值，返回值時需使用&lt;code&gt;return&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;async-await&#34;&gt;Async Await&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;promise&lt;/code&gt;的出現，目標是為了解決callback hell的現象，而&lt;code&gt;Async Await&lt;/code&gt;則是為了讓非同步執行變得更簡潔，更直觀&lt;/p&gt;
 &lt;p&gt;callback -&amp;gt; promise -&amp;gt; Async Await&lt;/p&gt;
