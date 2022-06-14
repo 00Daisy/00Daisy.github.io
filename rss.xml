@@ -21,10 +21,39 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Sat, 14 May 2022 23:31:09 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jun 2022 20:56:23 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>Ruby on Rails 面試題準備</title>
+                <link>https://example.com/posts/interview/</link>
+                <guid isPermaLink="true">https://example.com/posts/interview/</guid>
+                <pubDate>Tue, 14 Jun 2022 20:52:57 &#43;0800</pubDate>
+                
+                    <author>ysiad926@gmail.com (Daisy)</author>
+                
+                
+                
+                    <description>&lt;p&gt;一、symbols
+字串符號
+唯一且不會變動的識別名稱
+效能比較好，不需要額外的空間來儲存&lt;/p&gt;
+&lt;p&gt;字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>好用工具 LICEcap</title>
