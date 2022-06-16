@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Tue, 14 Jun 2022 20:56:23 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jun 2022 01:05:43 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -36,11 +36,279 @@
                 
                 
                 
-                    <description>&lt;p&gt;一、symbols
+                    <description>&lt;h2 id=&#34;ruby&#34;&gt;RUBY&lt;/h2&gt;
+&lt;p&gt;一、symbols
 字串符號
 唯一且不會變動的識別名稱
 效能比較好，不需要額外的空間來儲存&lt;/p&gt;
 &lt;p&gt;字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase&lt;/p&gt;
+&lt;p&gt;二、 問號跟驚嘆號
+在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。&lt;/p&gt;
+&lt;p&gt;一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)&lt;/p&gt;
+&lt;p&gt;使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。&lt;/p&gt;
+&lt;p&gt;uniq 方法會回傳一個新的陣列回來，不影響原來的資料&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;original_list&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;uniq_list&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;original_list&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;uniq&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;original_list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;uniq_list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;但如果你是使用有驚嘆號版本的 uniq! 就不同了，原本的陣列也被改變了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;original_list&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;uniq_list&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;original_list&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;uniq!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;original_list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;uniq_list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;三、module 與 modle
+四、namespace&lt;/p&gt;
+&lt;h2 id=&#34;rails&#34;&gt;Rails&lt;/h2&gt;
+&lt;p&gt;一、型態 text(文字) 與 string(字串)&lt;/p&gt;
+&lt;p&gt;text 是一種二進位，binary 的格式。可以放的字非常多，可能幾千、幾萬個字，可以使用在如文章內文&lt;/p&gt;
+&lt;p&gt;string 能放的字比較少，使用在文字不會太長的情況，例如文章標題&lt;/p&gt;
+&lt;p&gt;四、什麼是 migration&lt;/p&gt;
+&lt;p&gt;一種描述資料表該長什麼樣子的描述檔，可以漸進式的去修改你的資料表&lt;/p&gt;
+&lt;p&gt;優點:
+有紀錄，是一連串的檔案，為資料表的演進過程(欄位變化，新增修改刪除)
+可以進行版本控制&lt;/p&gt;
+&lt;p&gt;如果要使 migration 具現化，在終端機下指令：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rails db:migrate
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;六、CSRF 攻擊&lt;/p&gt;
+&lt;p&gt;CSRF (Cross-site request forgery)，跨站請求偽造。目的不一定是要取得使用者帳戶的控制權或個資，但可以用其他使用者的名義執行某些操作。&lt;/p&gt;
+&lt;p&gt;這類攻擊的特點是以使用者身份發起&lt;/p&gt;
+&lt;p&gt;例如，駭客想刪掉某個 Blog 平台的文章，雖然他沒有這個網站的使用權限，但猜到了後台的路徑: &lt;code&gt;/admin/posts/1&lt;/code&gt;便可以使用 delete 方法來刪除。接著把這個連結包裝成中獎資訊，寄送給有權限且剛好處於登入狀態的 X 先生，當 X 先生點下連結，文章就會透過 X 先生的權限來刪除了。&lt;/p&gt;
+&lt;p&gt;這個例子中，CSRF 攻擊之所以可以成功，並不是因為駭客獲取 X 先生 的 cookie 資訊，而是偽裝成是 X 先生。&lt;/p&gt;
+&lt;p&gt;解決方法:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;檢查 referer 欄位 (可透過檢查 Header 中的 Referer 欄位是否存在及是否為正常流程網域，藉此確認發送端的前一個頁面是否被偽造或合法使用。)&lt;/li&gt;
+&lt;li&gt;加入驗證 token (除了驗證 Cookie 的 Token 之外，還需另外在 Request 中放入隱藏的動態 Token 參數。等同於要求每次的 Request 都必須帶上密碼)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;七、什麼是 erb 檔
+可以在 HTML 裡面寫 ruby 的程式碼&lt;/p&gt;
+&lt;p&gt;八、N+1&lt;/p&gt;
+&lt;p&gt;N+1 指的是 SQL 撈資料時，明明可以一次撈完 (例如要三筆資料)，卻使用逐筆撈資料的方式處理 (每次只撈一筆資料)
+1次查詢 + N 次的關聯資料查詢就會讓資料庫效能損失&lt;/p&gt;
+&lt;p&gt;解決方法:
+查詢資料的過程中，使用&lt;code&gt;includes&lt;/code&gt;多撈一點資料回來。變成 1 + 1&lt;/p&gt;
+&lt;p&gt;九、中控台模式 rails console&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rails c &lt;/code&gt;可在裡面修改資料及查詢資料。
+跟 irb 本質上沒有太大差別，中控台模式會把整個 rails 環境，包含相關model 、相關套件整個載下來。&lt;/p&gt;
+&lt;p&gt;而 irb 就是一般 ruby 環境&lt;/p&gt;
+&lt;p&gt;十、ORM&lt;/p&gt;
+&lt;p&gt;Object Relational Mapping&lt;/p&gt;
+&lt;p&gt;目的: 簡化資料庫操作語法&lt;/p&gt;
+&lt;p&gt;透過物件的方式，去操作資料表，再換句話說，
+把物件導向的語法，透過model，轉換成 SQL 查詢語句，對開發人員來說輕鬆很多。撈回來的資料再交給 model 物件化&lt;/p&gt;
+&lt;p&gt;例如: Book.all 等同於 select * from books&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SQL 可以被 ORM 取代嗎？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;當遇到問題時，比如效能，還是需要在 log (紀錄) 裡看 SQL 的語法，看是否寫錯造成翻譯錯誤。&lt;/li&gt;
+&lt;li&gt;複雜的查詢還是必須使用 SQL 語法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;十一、 MVC&lt;/p&gt;
+&lt;p&gt;MVC 架構 Model View Controller&lt;/p&gt;
+&lt;p&gt;流程: 一個使用者，透過 &lt;code&gt;route&lt;/code&gt;(第一線處理 request 的角色，在 rails 裡非常重要) 導到某一個&lt;code&gt;controller&lt;/code&gt;，也許需要調資料(跟&lt;code&gt;model&lt;/code&gt;)，也許不用。查完之後(如果需要查詢的話)把資料交還給&lt;code&gt;controller&lt;/code&gt;，用 &lt;code&gt;view&lt;/code&gt; 去做頁面呈現 (HTML &amp;amp; CSS)&lt;/p&gt;
+&lt;p&gt;Model: 抽象層的概念
+model 不是資料表，資料表是 table (實體存在的東西)&lt;/p&gt;
+&lt;p&gt;Controller: 本身是一個 class ， 一個一個的 action 就是方法&lt;/p&gt;
+&lt;p&gt;View: 在 controller acton (透過 model 向資料庫) 拿到的 raw data，搭配畫面跟表單，組成一般使用者可以讀的表格、表單&lt;/p&gt;
+&lt;p&gt;優點∶
+歸類整齊，易於前後端分工
+流程控制: controller
+資料邏輯: model
+畫面相關: view&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;View 技術上來說，其實是會回傳 HTML 內容的方法(method、function)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;十二、資料驗證
+前端驗證: 還沒送出去前，在表單用 JavaScript擋下來，缺點驗證是容易被避開
+後端驗證: 寫進資料庫之前，如果內容沒填、格式有問題等，把它擋下來。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;model&lt;/code&gt; 層，比如名字欄位必填，可以使用以下的驗證器&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;validates&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;presence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其他在 rails guide 的 Validation Helpers 還有更多可以使用的驗證&lt;/p&gt;
+&lt;p&gt;不寫在 controller 的原因，每一個 controller 要寫去都要做檢查&lt;/p&gt;
+&lt;p&gt;model 是整包做檢查&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若同時有不同系統存取資料庫的狀況(比如PHP)，則無法保證資料一定無誤。這時可以在資料庫本體擋掉，比較安全&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;十三、 Active Record&lt;/p&gt;
+&lt;p&gt;是一種設計模式，本身是一個物件。
+每一筆資料包裝成一個物件，並在其增加資料操作邏輯，讓資料的存取更便利&lt;/p&gt;
+&lt;p&gt;這個物件，由欄位、基本操作、商業邏輯組成&lt;/p&gt;
+&lt;p&gt;我們可以說 MVC 裡的 Model =
+依照 Active Record 模式設計的產物&lt;/p&gt;
+&lt;p&gt;而 Active Record 是一種 ORM 框架&lt;/p&gt;
+&lt;p&gt;Active Record
+ORM
+Model
+Database
+Table&lt;/p&gt;
+&lt;p&gt;十四、二大哲學
+&lt;strong&gt;(一) 慣例優於設定 Convention Over Configuration(CoC)&lt;/strong&gt;
+慣例 = 可以少寫不必要的程式碼
+學習 Rails ，等於是在學習 Rails 的慣例
+例如:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Model: 大寫、單數&lt;/li&gt;
+&lt;li&gt;Table: 小寫、複數&lt;/li&gt;
+&lt;li&gt;每個表格預設會有一個叫做 id 的流水編號欄位&lt;/li&gt;
+&lt;li&gt;在 migration 裡預設會有個 timestamps，在具現化的時候，會轉換成 created_at updated_at這兩個時間欄位，在資料新增或更新的時候自動寫當下時間&lt;/li&gt;
+&lt;li&gt;model 跟 table 的對應
+&lt;code&gt;pluralize&lt;/code&gt; 找出複數名詞的方法
+&lt;code&gt;singularize&lt;/code&gt; 找出單數名詞的方法
+比如&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;#34;person&amp;#34;.pluralize
+=&amp;gt; &amp;#34;people&amp;#34; 
+&amp;#34;people&amp;#34;.singularize
+=&amp;gt; &amp;#34;person&amp;#34; 
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;若需自定義，在&lt;code&gt;config/initializers/inflections.rb&lt;/code&gt;設定&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;檔案跟 model 的對應。類別名稱由兩個以上的單字組成時，Model 名稱應要遵循 Ruby 的命名慣例，採用駝峰式命名，而資料表名稱必須採用底線分隔。
+&lt;code&gt;underscore&lt;/code&gt;變成蛇式的方法
+&lt;code&gt;camlize&lt;/code&gt;變成駝峰式
+比如&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;#34;HappyHour&amp;#34;.underscore
+=&amp;gt; &amp;#34;happy_hour&amp;#34;
+&amp;#34;happy_hour&amp;#34;.camlize
+=&amp;gt; &amp;#34;HappyHour&amp;#34;  
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;外鍵 - 應用資料表的單數形加上 _id 來命名，比如 item_id, order_id。Active Record 會在你建立 Model 之間的關聯時，尋找這種形式的欄位 singularized_table_name_id。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;當 model 之間的關連不是用慣例時，必須加上 foreign_key&lt;/p&gt;
+&lt;p&gt;比如有一個 store 的 model:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;belongs_to&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:owner&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#foreign_key: &amp;#39;owner_id&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;foreign_key 是遵循慣例，所以後面可以省略，但如果是接手別人案子或設計，可能原本不是用 ruby 或 rails 寫的，則需寫出 foreign_key 如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;belongs_to&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:owner&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;foreign_key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;u_id&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;主鍵(流水編號欄位id) - Active Record 預設會使用一個叫做 id 的整數欄位，作為資料表的主鍵。採用 Active Record migration 來建立資料表時，這個欄位會自動產生。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;參照值&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;user:references 會造出 user_id 這個數字型態欄位
+會指向 user 這個 model 的主鍵(流水編號欄位id)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(二) Don&amp;rsquo;t repeat yourself&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;十五、關聯性&lt;/p&gt;
+&lt;p&gt;一對一、一對多、多對多
+has_one 不是設定，它是一個類別方法，例子中的 store 是它的參數
+執行 has_one 後，會動態做出四個方法，比如&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;has_one&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:store&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#做出以下的方法&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#store&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#store=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#build_store(不會直接寫進資料庫)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#create_store &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;belongs_to&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:owner&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#做出以下的方法&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#owner&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#owner=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;has_many&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:books&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#做出以下的方法&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#books&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#books=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#build&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#create&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;十四、API&lt;/p&gt;
+&lt;p&gt;十三、RESTful&lt;/p&gt;
+&lt;p&gt;十五、CACHE 暫存&lt;/p&gt;
+&lt;p&gt;十六、&lt;/p&gt;
 </description>
                 
                 
@@ -162,10 +430,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;message&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;訊息&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;就有英文介面及中文介面
-&lt;img src=&#34;https://example.com/resources/_gen/assets/images/i18n.en.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/resources/_gen/assets/images/i18n.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/static/images/i18n.en.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;就有英文介面及中文介面&lt;/p&gt;
 &lt;p&gt;step. 4 切換多國語系&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在&lt;code&gt;app/controllers/application_controller.rb&lt;/code&gt;新增以下這段&lt;/li&gt;

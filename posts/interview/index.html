@@ -30,8 +30,13 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="Daisy" /><meta name="description" content="一、symbols 字串符號 唯一且不會變動的識別名稱 效能比較好，不需要額外的空間來儲存
-字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase" />
+    <meta name="author" content="Daisy" /><meta name="description" content="RUBY 一、symbols 字串符號 唯一且不會變動的識別名稱 效能比較好，不需要額外的空間來儲存
+字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase
+二、 問號跟驚嘆號 在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。
+一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)
+使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。
+uniq 方法會回傳一個新的陣列回來，不影響原來的資料
+1 2 3 4 5 6 7  original_list = [1,3,4,2,5,2,3] uniq_list = original_list.uniq p original_list [1, 3, 4, 2, 5, 2, 3] p uniq_list [1, 3, 4, 2, 5]   但如果你是使用有驚嘆號版本的 uniq!" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -58,13 +63,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2022-06-14T20:52:57+08:00",
-        "dateModified": "2022-06-14T20:55:32+08:00",
+        "dateModified": "2022-06-17T01:05:25+08:00",
         "url": "https://example.com/posts/interview/",
         "headline": "Ruby on Rails 面試題準備",
-        "description": "一、symbols 字串符號 唯一且不會變動的識別名稱 效能比較好，不需要額外的空間來儲存\n字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase",
+        "description": "RUBY 一、symbols 字串符號 唯一且不會變動的識別名稱 效能比較好，不需要額外的空間來儲存\n字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase\n二、 問號跟驚嘆號 在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。\n一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)\n使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。\nuniq 方法會回傳一個新的陣列回來，不影響原來的資料\n1 2 3 4 5 6 7  original_list = [1,3,4,2,5,2,3] uniq_list = original_list.uniq p original_list [1, 3, 4, 2, 5, 2, 3] p uniq_list [1, 3, 4, 2, 5]   但如果你是使用有驚嘆號版本的 uniq!",
         "inLanguage" : "en",
         "articleSection": "posts",
-        "wordCount":  8 ,
+        "wordCount":  515 ,
         "image": "https://example.com/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -102,14 +107,19 @@
 
 
 <meta property="og:title" content="Ruby on Rails 面試題準備" />
-<meta property="og:description" content="一、symbols 字串符號 唯一且不會變動的識別名稱 效能比較好，不需要額外的空間來儲存
-字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase" />
+<meta property="og:description" content="RUBY 一、symbols 字串符號 唯一且不會變動的識別名稱 效能比較好，不需要額外的空間來儲存
+字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase
+二、 問號跟驚嘆號 在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。
+一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)
+使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。
+uniq 方法會回傳一個新的陣列回來，不影響原來的資料
+1 2 3 4 5 6 7  original_list = [1,3,4,2,5,2,3] uniq_list = original_list.uniq p original_list [1, 3, 4, 2, 5, 2, 3] p uniq_list [1, 3, 4, 2, 5]   但如果你是使用有驚嘆號版本的 uniq!" />
 <meta property="og:url" content="https://example.com/posts/interview/" />
 <meta property="og:site_name" content="Daisy&#39;s Blog" />
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://example.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2022-06-14T20:52:57&#43;08:00" />
-    <meta property="article:modified_time" content="2022-06-14T20:55:32&#43;08:00" />
+    <meta property="article:modified_time" content="2022-06-17T01:05:25&#43;08:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -244,7 +254,7 @@
     
     
         
-        <time datetime="2022-06-14T20:55:32&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2022.6.14</time>
+        <time datetime="2022-06-17T01:05:25&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2022.6.17</time>
     
     
     
@@ -256,11 +266,11 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;8</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;515</span>
     
     
         
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;1&nbsp;min</span>
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;3&nbsp;mins</span>
     
     
     
@@ -269,11 +279,279 @@
             
 
             <div class="post-body e-content">
-                <p style="text-indent:0"><span class="drop-cap">一</span>、symbols
+                <h2 id="ruby"><a href="#ruby" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>RUBY</h2>
+<p style="text-indent:0"><span class="drop-cap">一</span>、symbols
 字串符號
 唯一且不會變動的識別名稱
 效能比較好，不需要額外的空間來儲存</p>
 <p>字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase</p>
+<p>二、 問號跟驚嘆號
+在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。</p>
+<p>一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)</p>
+<p>使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。</p>
+<p>uniq 方法會回傳一個新的陣列回來，不影響原來的資料</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">original_list</span> <span class="o">=</span> <span class="o">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">uniq_list</span> <span class="o">=</span> <span class="n">original_list</span><span class="o">.</span><span class="n">uniq</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">p</span> <span class="n">original_list</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nb">p</span> <span class="n">uniq_list</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="o">]</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>但如果你是使用有驚嘆號版本的 uniq! 就不同了，原本的陣列也被改變了。</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">original_list</span> <span class="o">=</span> <span class="o">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">uniq_list</span> <span class="o">=</span> <span class="n">original_list</span><span class="o">.</span><span class="n">uniq!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">p</span> <span class="n">original_list</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nb">p</span> <span class="n">uniq_list</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="o">]</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>三、module 與 modle
+四、namespace</p>
+<h2 id="rails"><a href="#rails" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Rails</h2>
+<p>一、型態 text(文字) 與 string(字串)</p>
+<p>text 是一種二進位，binary 的格式。可以放的字非常多，可能幾千、幾萬個字，可以使用在如文章內文</p>
+<p>string 能放的字比較少，使用在文字不會太長的情況，例如文章標題</p>
+<p>四、什麼是 migration</p>
+<p>一種描述資料表該長什麼樣子的描述檔，可以漸進式的去修改你的資料表</p>
+<p>優點:
+有紀錄，是一連串的檔案，為資料表的演進過程(欄位變化，新增修改刪除)
+可以進行版本控制</p>
+<p>如果要使 migration 具現化，在終端機下指令：</p>
+<pre tabindex="0"><code>rails db:migrate
+</code></pre><p>六、CSRF 攻擊</p>
+<p>CSRF (Cross-site request forgery)，跨站請求偽造。目的不一定是要取得使用者帳戶的控制權或個資，但可以用其他使用者的名義執行某些操作。</p>
+<p>這類攻擊的特點是以使用者身份發起</p>
+<p>例如，駭客想刪掉某個 Blog 平台的文章，雖然他沒有這個網站的使用權限，但猜到了後台的路徑: <code>/admin/posts/1</code>便可以使用 delete 方法來刪除。接著把這個連結包裝成中獎資訊，寄送給有權限且剛好處於登入狀態的 X 先生，當 X 先生點下連結，文章就會透過 X 先生的權限來刪除了。</p>
+<p>這個例子中，CSRF 攻擊之所以可以成功，並不是因為駭客獲取 X 先生 的 cookie 資訊，而是偽裝成是 X 先生。</p>
+<p>解決方法:</p>
+<ol>
+<li>檢查 referer 欄位 (可透過檢查 Header 中的 Referer 欄位是否存在及是否為正常流程網域，藉此確認發送端的前一個頁面是否被偽造或合法使用。)</li>
+<li>加入驗證 token (除了驗證 Cookie 的 Token 之外，還需另外在 Request 中放入隱藏的動態 Token 參數。等同於要求每次的 Request 都必須帶上密碼)</li>
+</ol>
+<p>七、什麼是 erb 檔
+可以在 HTML 裡面寫 ruby 的程式碼</p>
+<p>八、N+1</p>
+<p>N+1 指的是 SQL 撈資料時，明明可以一次撈完 (例如要三筆資料)，卻使用逐筆撈資料的方式處理 (每次只撈一筆資料)
+1次查詢 + N 次的關聯資料查詢就會讓資料庫效能損失</p>
+<p>解決方法:
+查詢資料的過程中，使用<code>includes</code>多撈一點資料回來。變成 1 + 1</p>
+<p>九、中控台模式 rails console</p>
+<p><code>rails c </code>可在裡面修改資料及查詢資料。
+跟 irb 本質上沒有太大差別，中控台模式會把整個 rails 環境，包含相關model 、相關套件整個載下來。</p>
+<p>而 irb 就是一般 ruby 環境</p>
+<p>十、ORM</p>
+<p>Object Relational Mapping</p>
+<p>目的: 簡化資料庫操作語法</p>
+<p>透過物件的方式，去操作資料表，再換句話說，
+把物件導向的語法，透過model，轉換成 SQL 查詢語句，對開發人員來說輕鬆很多。撈回來的資料再交給 model 物件化</p>
+<p>例如: Book.all 等同於 select * from books</p>
+<blockquote>
+<p>SQL 可以被 ORM 取代嗎？</p>
+<ol>
+<li>當遇到問題時，比如效能，還是需要在 log (紀錄) 裡看 SQL 的語法，看是否寫錯造成翻譯錯誤。</li>
+<li>複雜的查詢還是必須使用 SQL 語法</li>
+</ol>
+</blockquote>
+<p>十一、 MVC</p>
+<p>MVC 架構 Model View Controller</p>
+<p>流程: 一個使用者，透過 <code>route</code>(第一線處理 request 的角色，在 rails 裡非常重要) 導到某一個<code>controller</code>，也許需要調資料(跟<code>model</code>)，也許不用。查完之後(如果需要查詢的話)把資料交還給<code>controller</code>，用 <code>view</code> 去做頁面呈現 (HTML &amp; CSS)</p>
+<p>Model: 抽象層的概念
+model 不是資料表，資料表是 table (實體存在的東西)</p>
+<p>Controller: 本身是一個 class ， 一個一個的 action 就是方法</p>
+<p>View: 在 controller acton (透過 model 向資料庫) 拿到的 raw data，搭配畫面跟表單，組成一般使用者可以讀的表格、表單</p>
+<p>優點∶
+歸類整齊，易於前後端分工
+流程控制: controller
+資料邏輯: model
+畫面相關: view</p>
+<blockquote>
+<p>View 技術上來說，其實是會回傳 HTML 內容的方法(method、function)</p>
+</blockquote>
+<p>十二、資料驗證
+前端驗證: 還沒送出去前，在表單用 JavaScript擋下來，缺點驗證是容易被避開
+後端驗證: 寫進資料庫之前，如果內容沒填、格式有問題等，把它擋下來。</p>
+<p>在 <code>model</code> 層，比如名字欄位必填，可以使用以下的驗證器</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">validates</span> <span class="ss">:name</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>其他在 rails guide 的 Validation Helpers 還有更多可以使用的驗證</p>
+<p>不寫在 controller 的原因，每一個 controller 要寫去都要做檢查</p>
+<p>model 是整包做檢查</p>
+<blockquote>
+<p>若同時有不同系統存取資料庫的狀況(比如PHP)，則無法保證資料一定無誤。這時可以在資料庫本體擋掉，比較安全</p>
+</blockquote>
+<p>十三、 Active Record</p>
+<p>是一種設計模式，本身是一個物件。
+每一筆資料包裝成一個物件，並在其增加資料操作邏輯，讓資料的存取更便利</p>
+<p>這個物件，由欄位、基本操作、商業邏輯組成</p>
+<p>我們可以說 MVC 裡的 Model =
+依照 Active Record 模式設計的產物</p>
+<p>而 Active Record 是一種 ORM 框架</p>
+<p>Active Record
+ORM
+Model
+Database
+Table</p>
+<p>十四、二大哲學
+<strong>(一) 慣例優於設定 Convention Over Configuration(CoC)</strong>
+慣例 = 可以少寫不必要的程式碼
+學習 Rails ，等於是在學習 Rails 的慣例
+例如:</p>
+<ol>
+<li>Model: 大寫、單數</li>
+<li>Table: 小寫、複數</li>
+<li>每個表格預設會有一個叫做 id 的流水編號欄位</li>
+<li>在 migration 裡預設會有個 timestamps，在具現化的時候，會轉換成 created_at updated_at這兩個時間欄位，在資料新增或更新的時候自動寫當下時間</li>
+<li>model 跟 table 的對應
+<code>pluralize</code> 找出複數名詞的方法
+<code>singularize</code> 找出單數名詞的方法
+比如</li>
+</ol>
+<pre tabindex="0"><code>&#34;person&#34;.pluralize
+=&gt; &#34;people&#34; 
+&#34;people&#34;.singularize
+=&gt; &#34;person&#34; 
+</code></pre><blockquote>
+<p>若需自定義，在<code>config/initializers/inflections.rb</code>設定</p>
+</blockquote>
+<ol start="6">
+<li>檔案跟 model 的對應。類別名稱由兩個以上的單字組成時，Model 名稱應要遵循 Ruby 的命名慣例，採用駝峰式命名，而資料表名稱必須採用底線分隔。
+<code>underscore</code>變成蛇式的方法
+<code>camlize</code>變成駝峰式
+比如</li>
+</ol>
+<pre tabindex="0"><code>&#34;HappyHour&#34;.underscore
+=&gt; &#34;happy_hour&#34;
+&#34;happy_hour&#34;.camlize
+=&gt; &#34;HappyHour&#34;  
+</code></pre><ol start="7">
+<li>外鍵 - 應用資料表的單數形加上 _id 來命名，比如 item_id, order_id。Active Record 會在你建立 Model 之間的關聯時，尋找這種形式的欄位 singularized_table_name_id。</li>
+</ol>
+<p>當 model 之間的關連不是用慣例時，必須加上 foreign_key</p>
+<p>比如有一個 store 的 model:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">belongs_to</span> <span class="ss">:owner</span> <span class="c1">#foreign_key: &#39;owner_id&#39;</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>foreign_key 是遵循慣例，所以後面可以省略，但如果是接手別人案子或設計，可能原本不是用 ruby 或 rails 寫的，則需寫出 foreign_key 如下</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">belongs_to</span> <span class="ss">:owner</span> <span class="ss">foreign_key</span><span class="p">:</span> <span class="s1">&#39;u_id&#39;</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><ol start="8">
+<li>
+<p>主鍵(流水編號欄位id) - Active Record 預設會使用一個叫做 id 的整數欄位，作為資料表的主鍵。採用 Active Record migration 來建立資料表時，這個欄位會自動產生。</p>
+</li>
+<li>
+<p>參照值</p>
+</li>
+</ol>
+<p>user:references 會造出 user_id 這個數字型態欄位
+會指向 user 這個 model 的主鍵(流水編號欄位id)</p>
+<p><strong>(二) Don&rsquo;t repeat yourself</strong></p>
+<p>十五、關聯性</p>
+<p>一對一、一對多、多對多
+has_one 不是設定，它是一個類別方法，例子中的 store 是它的參數
+執行 has_one 後，會動態做出四個方法，比如</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">has_one</span> <span class="ss">:store</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#做出以下的方法</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#store</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#store=</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#build_store(不會直接寫進資料庫)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#create_store </span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">belongs_to</span> <span class="ss">:owner</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#做出以下的方法</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#owner</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#owner=</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">has_many</span> <span class="ss">:books</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#做出以下的方法</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#books</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#books=</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#build</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#create</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>十四、API</p>
+<p>十三、RESTful</p>
+<p>十五、CACHE 暫存</p>
+<p>十六、</p>
 
             </div>
 
@@ -286,9 +564,9 @@
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2022-06-14 20:55:32 CST" style="cursor:help">
+        <span title="Updated @ 2022-06-17 01:05:25 CST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2022-06-14</text><text x="915" y="140" textLength="650" transform="scale(.1)">2022-06-14</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2022-06-17</text><text x="915" y="140" textLength="650" transform="scale(.1)">2022-06-17</text></g></svg>
         </span></div>
 
 

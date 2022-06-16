@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2022-06-14T20:55:32+08:00</lastmod>
+    <lastmod>2022-06-17T01:05:25+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/</loc>
-    <lastmod>2022-06-14T20:55:32+08:00</lastmod>
+    <lastmod>2022-06-17T01:05:25+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/interview/</loc>
-    <lastmod>2022-06-14T20:55:32+08:00</lastmod>
+    <lastmod>2022-06-17T01:05:25+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/licecap/</loc>
     <lastmod>2022-05-11T17:42:24+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/rails_i18n/</loc>
-    <lastmod>2022-05-10T11:46:41+08:00</lastmod>
+    <lastmod>2022-06-16T09:25:44+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/rails_payment_gateway/</loc>
     <lastmod>2022-05-08T23:24:29+08:00</lastmod>
