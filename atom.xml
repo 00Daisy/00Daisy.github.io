@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-06-17T01:05:43&#43;08:00</updated>
+    <updated>2022-06-18T21:30:16&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Ruby on Rails 面試題準備</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/interview/" />
             <id>https://example.com/posts/interview/</id>
-            <updated>2022-06-17T01:05:25&#43;08:00</updated>
+            <updated>2022-06-18T21:29:14&#43;08:00</updated>
             <published>2022-06-14T20:52:57&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -111,7 +111,7 @@ uniq 方法會回傳一個新的陣列回來，不影響原來的資料
 &lt;li&gt;加入驗證 token (除了驗證 Cookie 的 Token 之外，還需另外在 Request 中放入隱藏的動態 Token 參數。等同於要求每次的 Request 都必須帶上密碼)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;七、什麼是 erb 檔
-可以在 HTML 裡面寫 ruby 的程式碼&lt;/p&gt;
+可以在 HTML 裡面寫 ruby 的程式碼。ERb其實可以用來產生任何文字檔格式，例如CSV、XML、JavaScript等等&lt;/p&gt;
 &lt;p&gt;八、N+1&lt;/p&gt;
 &lt;p&gt;N+1 指的是 SQL 撈資料時，明明可以一次撈完 (例如要三筆資料)，卻使用逐筆撈資料的方式處理 (每次只撈一筆資料)
 1次查詢 + N 次的關聯資料查詢就會讓資料庫效能損失&lt;/p&gt;
@@ -134,6 +134,39 @@ uniq 方法會回傳一個新的陣列回來，不影響原來的資料
 &lt;li&gt;複雜的查詢還是必須使用 SQL 語法&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;ORM 基本操作 CRUD&lt;/p&gt;
+&lt;p&gt;C
+new 新增一筆資料
+create 新增一筆資料，並寫進資料庫 (寫入失敗時默默 rollback)
+create! 同上，但寫入失敗時會噴錯誤訊息 (可使用 beging rescure 捕捉)
+R
+first 找出第一筆資料
+last 找出最後一筆資料
+find:找出單一筆資料，且只能透過id去搜尋。找不到時 find 會噴錯誤訊息 (例外訊息)
+find_by 找出單一筆資料，且可以透過自訂條件去搜尋。找不到時 find_by 會回傳的值是nil
+find_each 資料量大時，預設每次抓 1000 筆
+all 找出所有資料
+select(&amp;rsquo;name&amp;rsquo;) 同上，但只選取 name 欄位
+where(name: &amp;lsquo;Happy&amp;rsquo;) 找出所有 name 欄位是 Ruby 的資料
+order(&amp;lsquo;id DESC&amp;rsquo;) 依照 id 大小反向排序
+order(id: :desc) 同上
+limit(3) 只取出 3 筆資料
+count
+average
+sum
+maximum 與 minimum
+U
+update
+update_all
+increment 欄位的值 + 1 (沒有存檔功能，要記得 save)
+toggle 把原本的 true / false 值對調 (沒有存檔功能，要記得 save)
+D
+delete
+destroy 刪的過程中，有一連串的 callback
+destroy_all&lt;/p&gt;
+&lt;p&gt;Scope&lt;/p&gt;
+&lt;p&gt;把商業邏輯寫到 model 裡 取代 controller 一堆 where
+是一種類別方法&lt;/p&gt;
 &lt;p&gt;十一、 MVC&lt;/p&gt;
 &lt;p&gt;MVC 架構 Model View Controller&lt;/p&gt;
 &lt;p&gt;流程: 一個使用者，透過 &lt;code&gt;route&lt;/code&gt;(第一線處理 request 的角色，在 rails 裡非常重要) 導到某一個&lt;code&gt;controller&lt;/code&gt;，也許需要調資料(跟&lt;code&gt;model&lt;/code&gt;)，也許不用。查完之後(如果需要查詢的話)把資料交還給&lt;code&gt;controller&lt;/code&gt;，用 &lt;code&gt;view&lt;/code&gt; 去做頁面呈現 (HTML &amp;amp; CSS)&lt;/p&gt;
@@ -167,7 +200,15 @@ model 不是資料表，資料表是 table (實體存在的東西)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;若同時有不同系統存取資料庫的狀況(比如PHP)，則無法保證資料一定無誤。這時可以在資料庫本體擋掉，比較安全&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;十三、 Active Record&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何繞過驗證 c.save(validate: false)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;十三、 Callback&lt;/p&gt;
+&lt;p&gt;資料存檔的流程會經過以下流程:
+save &amp;gt; valid &amp;gt; before_validation &amp;gt; validate &amp;gt; after_validate &amp;gt; before_save &amp;gt; before_create &amp;gt; create &amp;gt; after_create &amp;gt; after_save &amp;gt; after_commit&lt;/p&gt;
+&lt;p&gt;before_save 資料寫進跟更新都會執行
+before_create 資料被建立的時候才會執行&lt;/p&gt;
+&lt;p&gt;十四、 Active Record&lt;/p&gt;
 &lt;p&gt;是一種設計模式，本身是一個物件。
 每一筆資料包裝成一個物件，並在其增加資料操作邏輯，讓資料的存取更便利&lt;/p&gt;
 &lt;p&gt;這個物件，由欄位、基本操作、商業邏輯組成&lt;/p&gt;
@@ -179,7 +220,7 @@ ORM
 Model
 Database
 Table&lt;/p&gt;
-&lt;p&gt;十四、二大哲學
+&lt;p&gt;十五、二大哲學
 &lt;strong&gt;(一) 慣例優於設定 Convention Over Configuration(CoC)&lt;/strong&gt;
 慣例 = 可以少寫不必要的程式碼
 學習 Rails ，等於是在學習 Rails 的慣例
@@ -244,7 +285,7 @@ Table&lt;/p&gt;
 &lt;p&gt;user:references 會造出 user_id 這個數字型態欄位
 會指向 user 這個 model 的主鍵(流水編號欄位id)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;(二) Don&amp;rsquo;t repeat yourself&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;十五、關聯性&lt;/p&gt;
+&lt;p&gt;十六、關聯性&lt;/p&gt;
 &lt;p&gt;一對一、一對多、多對多
 has_one 不是設定，它是一個類別方法，例子中的 store 是它的參數
 執行 has_one 後，會動態做出四個方法，比如&lt;/p&gt;
@@ -304,10 +345,12 @@ has_one 不是設定，它是一個類別方法，例子中的 store 是它的�
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#create&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;十四、API&lt;/p&gt;
-&lt;p&gt;十三、RESTful&lt;/p&gt;
-&lt;p&gt;十五、CACHE 暫存&lt;/p&gt;
-&lt;p&gt;十六、&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;十七、API&lt;/p&gt;
+&lt;p&gt;十八、RESTful&lt;/p&gt;
+&lt;p&gt;十九、CACHE 暫存&lt;/p&gt;
+&lt;p&gt;二十、 Active Job 背景工作&lt;/p&gt;
+&lt;p&gt;二十一、 前端的 partial 和 helper 差別&lt;/p&gt;
+&lt;p&gt;二十二、Gemfile 的用意？&lt;/p&gt;
 </content>
             
             
