@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-06-18T21:30:16&#43;08:00</updated>
+    <updated>2022-06-21T23:44:42&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Ruby on Rails 面試題準備</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/interview/" />
             <id>https://example.com/posts/interview/</id>
-            <updated>2022-06-18T21:29:14&#43;08:00</updated>
+            <updated>2022-06-20T06:27:12&#43;08:00</updated>
             <published>2022-06-14T20:52:57&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -87,7 +87,10 @@ uniq 方法會回傳一個新的陣列回來，不影響原來的資料
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;三、module 與 modle
+&lt;/div&gt;&lt;p&gt;三、join、split
+join 用於將陣列( array )中的元素( element )轉成字串( string )。&lt;/p&gt;
+&lt;p&gt;split 用於將字串( string )轉成陣列( array )&lt;/p&gt;
+&lt;p&gt;三、module 與 modle
 四、namespace&lt;/p&gt;
 &lt;h2 id=&#34;rails&#34;&gt;Rails&lt;/h2&gt;
 &lt;p&gt;一、型態 text(文字) 與 string(字串)&lt;/p&gt;
@@ -345,12 +348,16 @@ has_one 不是設定，它是一個類別方法，例子中的 store 是它的�
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#create&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;十七、API&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;十七、 include、extend、reuqire、load&lt;/p&gt;
+&lt;p&gt;require,load用於檔案，如.rb等等結尾的檔案。include,load則用於包含一個檔案中的模組
+include是引用模組內的方法來擴充實體方法，而extend則是擴充類別方法&lt;/p&gt;
+&lt;p&gt;十七、API&lt;/p&gt;
 &lt;p&gt;十八、RESTful&lt;/p&gt;
 &lt;p&gt;十九、CACHE 暫存&lt;/p&gt;
 &lt;p&gt;二十、 Active Job 背景工作&lt;/p&gt;
 &lt;p&gt;二十一、 前端的 partial 和 helper 差別&lt;/p&gt;
 &lt;p&gt;二十二、Gemfile 的用意？&lt;/p&gt;
+&lt;p&gt;二十三、 namespace&lt;/p&gt;
 </content>
             
             
