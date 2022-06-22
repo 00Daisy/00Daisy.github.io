@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Tue, 21 Jun 2022 23:44:42 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jun 2022 00:03:46 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -91,20 +91,20 @@
 &lt;/div&gt;&lt;p&gt;三、join、split
 join 用於將陣列( array )中的元素( element )轉成字串( string )。&lt;/p&gt;
 &lt;p&gt;split 用於將字串( string )轉成陣列( array )&lt;/p&gt;
-&lt;p&gt;三、module 與 modle
-四、namespace&lt;/p&gt;
+&lt;p&gt;四、module 與 modle&lt;/p&gt;
+&lt;p&gt;五、namespace&lt;/p&gt;
 &lt;h2 id=&#34;rails&#34;&gt;Rails&lt;/h2&gt;
 &lt;p&gt;一、型態 text(文字) 與 string(字串)&lt;/p&gt;
 &lt;p&gt;text 是一種二進位，binary 的格式。可以放的字非常多，可能幾千、幾萬個字，可以使用在如文章內文&lt;/p&gt;
 &lt;p&gt;string 能放的字比較少，使用在文字不會太長的情況，例如文章標題&lt;/p&gt;
-&lt;p&gt;四、什麼是 migration&lt;/p&gt;
+&lt;p&gt;二、什麼是 migration&lt;/p&gt;
 &lt;p&gt;一種描述資料表該長什麼樣子的描述檔，可以漸進式的去修改你的資料表&lt;/p&gt;
 &lt;p&gt;優點:
 有紀錄，是一連串的檔案，為資料表的演進過程(欄位變化，新增修改刪除)
 可以進行版本控制&lt;/p&gt;
 &lt;p&gt;如果要使 migration 具現化，在終端機下指令：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rails db:migrate
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;六、CSRF 攻擊&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;三、CSRF 攻擊&lt;/p&gt;
 &lt;p&gt;CSRF (Cross-site request forgery)，跨站請求偽造。目的不一定是要取得使用者帳戶的控制權或個資，但可以用其他使用者的名義執行某些操作。&lt;/p&gt;
 &lt;p&gt;這類攻擊的特點是以使用者身份發起&lt;/p&gt;
 &lt;p&gt;例如，駭客想刪掉某個 Blog 平台的文章，雖然他沒有這個網站的使用權限，但猜到了後台的路徑: &lt;code&gt;/admin/posts/1&lt;/code&gt;便可以使用 delete 方法來刪除。接著把這個連結包裝成中獎資訊，寄送給有權限且剛好處於登入狀態的 X 先生，當 X 先生點下連結，文章就會透過 X 先生的權限來刪除了。&lt;/p&gt;
@@ -114,18 +114,18 @@ join 用於將陣列( array )中的元素( element )轉成字串( string )。&lt
 &lt;li&gt;檢查 referer 欄位 (可透過檢查 Header 中的 Referer 欄位是否存在及是否為正常流程網域，藉此確認發送端的前一個頁面是否被偽造或合法使用。)&lt;/li&gt;
 &lt;li&gt;加入驗證 token (除了驗證 Cookie 的 Token 之外，還需另外在 Request 中放入隱藏的動態 Token 參數。等同於要求每次的 Request 都必須帶上密碼)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;七、什麼是 erb 檔
+&lt;p&gt;四、什麼是 erb 檔
 可以在 HTML 裡面寫 ruby 的程式碼。ERb其實可以用來產生任何文字檔格式，例如CSV、XML、JavaScript等等&lt;/p&gt;
-&lt;p&gt;八、N+1&lt;/p&gt;
+&lt;p&gt;五、N+1&lt;/p&gt;
 &lt;p&gt;N+1 指的是 SQL 撈資料時，明明可以一次撈完 (例如要三筆資料)，卻使用逐筆撈資料的方式處理 (每次只撈一筆資料)
 1次查詢 + N 次的關聯資料查詢就會讓資料庫效能損失&lt;/p&gt;
 &lt;p&gt;解決方法:
 查詢資料的過程中，使用&lt;code&gt;includes&lt;/code&gt;多撈一點資料回來。變成 1 + 1&lt;/p&gt;
-&lt;p&gt;九、中控台模式 rails console&lt;/p&gt;
+&lt;p&gt;六、中控台模式 rails console&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;rails c &lt;/code&gt;可在裡面修改資料及查詢資料。
 跟 irb 本質上沒有太大差別，中控台模式會把整個 rails 環境，包含相關model 、相關套件整個載下來。&lt;/p&gt;
 &lt;p&gt;而 irb 就是一般 ruby 環境&lt;/p&gt;
-&lt;p&gt;十、ORM&lt;/p&gt;
+&lt;p&gt;七、ORM&lt;/p&gt;
 &lt;p&gt;Object Relational Mapping&lt;/p&gt;
 &lt;p&gt;目的: 簡化資料庫操作語法&lt;/p&gt;
 &lt;p&gt;透過物件的方式，去操作資料表，再換句話說，
@@ -171,7 +171,7 @@ destroy_all&lt;/p&gt;
 &lt;p&gt;Scope&lt;/p&gt;
 &lt;p&gt;把商業邏輯寫到 model 裡 取代 controller 一堆 where
 是一種類別方法&lt;/p&gt;
-&lt;p&gt;十一、 MVC&lt;/p&gt;
+&lt;p&gt;八、 MVC&lt;/p&gt;
 &lt;p&gt;MVC 架構 Model View Controller&lt;/p&gt;
 &lt;p&gt;流程: 一個使用者，透過 &lt;code&gt;route&lt;/code&gt;(第一線處理 request 的角色，在 rails 裡非常重要) 導到某一個&lt;code&gt;controller&lt;/code&gt;，也許需要調資料(跟&lt;code&gt;model&lt;/code&gt;)，也許不用。查完之後(如果需要查詢的話)把資料交還給&lt;code&gt;controller&lt;/code&gt;，用 &lt;code&gt;view&lt;/code&gt; 去做頁面呈現 (HTML &amp;amp; CSS)&lt;/p&gt;
 &lt;p&gt;Model: 抽象層的概念
@@ -186,7 +186,7 @@ model 不是資料表，資料表是 table (實體存在的東西)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;View 技術上來說，其實是會回傳 HTML 內容的方法(method、function)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;十二、資料驗證
+&lt;p&gt;九、資料驗證
 前端驗證: 還沒送出去前，在表單用 JavaScript擋下來，缺點驗證是容易被避開
 後端驗證: 寫進資料庫之前，如果內容沒填、格式有問題等，把它擋下來。&lt;/p&gt;
 &lt;p&gt;在 &lt;code&gt;model&lt;/code&gt; 層，比如名字欄位必填，可以使用以下的驗證器&lt;/p&gt;
@@ -207,12 +207,12 @@ model 不是資料表，資料表是 table (實體存在的東西)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如何繞過驗證 c.save(validate: false)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;十三、 Callback&lt;/p&gt;
+&lt;p&gt;十、 Callback&lt;/p&gt;
 &lt;p&gt;資料存檔的流程會經過以下流程:
 save &amp;gt; valid &amp;gt; before_validation &amp;gt; validate &amp;gt; after_validate &amp;gt; before_save &amp;gt; before_create &amp;gt; create &amp;gt; after_create &amp;gt; after_save &amp;gt; after_commit&lt;/p&gt;
 &lt;p&gt;before_save 資料寫進跟更新都會執行
 before_create 資料被建立的時候才會執行&lt;/p&gt;
-&lt;p&gt;十四、 Active Record&lt;/p&gt;
+&lt;p&gt;十一、 Active Record&lt;/p&gt;
 &lt;p&gt;是一種設計模式，本身是一個物件。
 每一筆資料包裝成一個物件，並在其增加資料操作邏輯，讓資料的存取更便利&lt;/p&gt;
 &lt;p&gt;這個物件，由欄位、基本操作、商業邏輯組成&lt;/p&gt;
@@ -224,7 +224,7 @@ ORM
 Model
 Database
 Table&lt;/p&gt;
-&lt;p&gt;十五、二大哲學
+&lt;p&gt;十二、二大哲學
 &lt;strong&gt;(一) 慣例優於設定 Convention Over Configuration(CoC)&lt;/strong&gt;
 慣例 = 可以少寫不必要的程式碼
 學習 Rails ，等於是在學習 Rails 的慣例
@@ -289,7 +289,7 @@ Table&lt;/p&gt;
 &lt;p&gt;user:references 會造出 user_id 這個數字型態欄位
 會指向 user 這個 model 的主鍵(流水編號欄位id)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;(二) Don&amp;rsquo;t repeat yourself&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;十六、關聯性&lt;/p&gt;
+&lt;p&gt;十三、關聯性&lt;/p&gt;
 &lt;p&gt;一對一、一對多、多對多
 has_one 不是設定，它是一個類別方法，例子中的 store 是它的參數
 執行 has_one 後，會動態做出四個方法，比如&lt;/p&gt;
@@ -349,16 +349,16 @@ has_one 不是設定，它是一個類別方法，例子中的 store 是它的�
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#create&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;十七、 include、extend、reuqire、load&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;十四、 include、extend、reuqire、load&lt;/p&gt;
 &lt;p&gt;require,load用於檔案，如.rb等等結尾的檔案。include,load則用於包含一個檔案中的模組
 include是引用模組內的方法來擴充實體方法，而extend則是擴充類別方法&lt;/p&gt;
-&lt;p&gt;十七、API&lt;/p&gt;
-&lt;p&gt;十八、RESTful&lt;/p&gt;
-&lt;p&gt;十九、CACHE 暫存&lt;/p&gt;
-&lt;p&gt;二十、 Active Job 背景工作&lt;/p&gt;
-&lt;p&gt;二十一、 前端的 partial 和 helper 差別&lt;/p&gt;
-&lt;p&gt;二十二、Gemfile 的用意？&lt;/p&gt;
-&lt;p&gt;二十三、 namespace&lt;/p&gt;
+&lt;p&gt;十五、API&lt;/p&gt;
+&lt;p&gt;十六、RESTful&lt;/p&gt;
+&lt;p&gt;十七、CACHE 暫存&lt;/p&gt;
+&lt;p&gt;十八、 Active Job 背景工作&lt;/p&gt;
+&lt;p&gt;十九、 前端的 partial 和 helper 差別&lt;/p&gt;
+&lt;p&gt;二十、Gemfile 的用意？&lt;/p&gt;
+&lt;p&gt;二十一、 namespace&lt;/p&gt;
 </description>
                 
                 
