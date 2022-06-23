@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-06-23T00:03:46&#43;08:00</updated>
+    <updated>2022-06-23T22:07:49&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Ruby on Rails 面試題準備</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/interview/" />
             <id>https://example.com/posts/interview/</id>
-            <updated>2022-06-23T00:03:41&#43;08:00</updated>
+            <updated>2022-06-23T00:05:06&#43;08:00</updated>
             <published>2022-06-14T20:52:57&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -29,7 +29,8 @@
                     </author>
             <summary type="html">RUBY 一、symbols 字串符號 唯一且不會變動的識別名稱 效能比較好，不需要額外的空間來儲存
 字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase
-二、 問號跟驚嘆號 在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。
+二、 問號跟驚嘆號
+在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。
 一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)
 使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。
 uniq 方法會回傳一個新的陣列回來，不影響原來的資料
@@ -41,8 +42,8 @@ uniq 方法會回傳一個新的陣列回來，不影響原來的資料
 唯一且不會變動的識別名稱
 效能比較好，不需要額外的空間來儲存&lt;/p&gt;
 &lt;p&gt;字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase&lt;/p&gt;
-&lt;p&gt;二、 問號跟驚嘆號
-在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。&lt;/p&gt;
+&lt;p&gt;二、 問號跟驚嘆號&lt;/p&gt;
+&lt;p&gt;在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。&lt;/p&gt;
 &lt;p&gt;一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)&lt;/p&gt;
 &lt;p&gt;使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。&lt;/p&gt;
 &lt;p&gt;uniq 方法會回傳一個新的陣列回來，不影響原來的資料&lt;/p&gt;

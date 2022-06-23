@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Thu, 23 Jun 2022 00:03:46 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jun 2022 22:07:49 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -42,8 +42,8 @@
 唯一且不會變動的識別名稱
 效能比較好，不需要額外的空間來儲存&lt;/p&gt;
 &lt;p&gt;字串物件(string)每次都會更新記憶體位置，效能不如symbols但優點是有許多方法可以使用如: reverse, size, downcase&lt;/p&gt;
-&lt;p&gt;二、 問號跟驚嘆號
-在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。&lt;/p&gt;
+&lt;p&gt;二、 問號跟驚嘆號&lt;/p&gt;
+&lt;p&gt;在 ruby 定義方法時，問號跟驚嘆號也是方法的一部分。&lt;/p&gt;
 &lt;p&gt;一般使用問號時，慣例上是表示這個方法會回傳布林值 (true 或 false)&lt;/p&gt;
 &lt;p&gt;使用驚嘆號，通常是表示這個方法可能會有「副作用」或「驚喜」，例如陣列有個叫做 uniq 的方法，它可以產生一個元素不重覆的新陣列。&lt;/p&gt;
 &lt;p&gt;uniq 方法會回傳一個新的陣列回來，不影響原來的資料&lt;/p&gt;
