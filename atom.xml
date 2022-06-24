@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-06-23T22:07:49&#43;08:00</updated>
+    <updated>2022-06-24T23:54:37&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Ruby on Rails 面試題準備</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/interview/" />
             <id>https://example.com/posts/interview/</id>
-            <updated>2022-06-23T00:05:06&#43;08:00</updated>
+            <updated>2022-06-24T23:54:32&#43;08:00</updated>
             <published>2022-06-14T20:52:57&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -224,8 +224,8 @@ ORM
 Model
 Database
 Table&lt;/p&gt;
-&lt;p&gt;十二、二大哲學
-&lt;strong&gt;(一) 慣例優於設定 Convention Over Configuration(CoC)&lt;/strong&gt;
+&lt;p&gt;十二、二大哲學&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(一) 慣例優於設定 Convention Over Configuration(CoC)&lt;/strong&gt;
 慣例 = 可以少寫不必要的程式碼
 學習 Rails ，等於是在學習 Rails 的慣例
 例如:&lt;/p&gt;
