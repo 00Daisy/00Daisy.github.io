@@ -20,7 +20,7 @@ It includes examples of my work, challenges completed, and the processes I have 
 
 - I manage my own wellbeing
 - I can learn anything by myself
-- 
+  
 ### 3. I help my teams succeed
 
 - I use an agile product development process
