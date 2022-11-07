@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-06-24T23:54:37&#43;08:00</updated>
+    <updated>2022-11-07T17:24:26&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -17,10 +17,222 @@
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
         <entry>
+            <title type="text">First day at Makers</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/first_day_at_makers/" />
+            <id>https://example.com/posts/first_day_at_makers/</id>
+            <updated>2022-11-07T17:24:19&#43;00:00</updated>
+            <published>2022-11-07T17:02:17&#43;00:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">Schedule for the first day    Time What     09.45 - 10.45 Welcome to Makers   10.45 - 11.00 BREAK   11.00 - 12.30 Life at Makers by Dana, our Chief Joy Officer   12.</summary>
+            
+                <content type="html">&lt;h3 id=&#34;schedule-for-the-first-day&#34;&gt;Schedule for the first day&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;What&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;09.45 - 10.45&lt;/td&gt;
+&lt;td&gt;Welcome to Makers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10.45 - 11.00&lt;/td&gt;
+&lt;td&gt;BREAK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11.00 - 12.30&lt;/td&gt;
+&lt;td&gt;Life at Makers by Dana, our Chief Joy Officer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12.30 - 14.00&lt;/td&gt;
+&lt;td&gt;LUNCH BREAK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14.00 - 15.45&lt;/td&gt;
+&lt;td&gt;Succeeding at Makers, and beyond&amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15.45 - 16.00&lt;/td&gt;
+&lt;td&gt;BREAK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16.00 - 16.45&lt;/td&gt;
+&lt;td&gt;Meet the Coaches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16.45 - 17.00&lt;/td&gt;
+&lt;td&gt;BREAK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17.00 - 17.30&lt;/td&gt;
+&lt;td&gt;Social time (optional)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;notes-life-at-makers-by-dana&#34;&gt;Notes (Life at Makers by Dana)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ask for help, help each other
+Emotional Intelligence EI EQ&lt;/li&gt;
+&lt;li&gt;Train attention&lt;/li&gt;
+&lt;li&gt;Meditation&lt;/li&gt;
+&lt;li&gt;Mindfulness could be a gym of your brain&lt;/li&gt;
+&lt;li&gt;Neuroplasticity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notes-meet-the-coaches&#34;&gt;Notes (Meet the Coaches)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Asking question&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Putting 100 % in it, but don’t be too stress and worry at should complete it with every details&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The EQ workshop and meditation really work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Be nice to yourself don’t assume you are the only one have the negative feeling&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ask yourself do you know more yesterday, if yes, then you are absolutely on the right process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do you have fun, enjoy it? Have fun and enjoy it rather then stress.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Keep coding, if you feeling don’t want to code anymore, come and talk with the coach.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Try it! TDD!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It’s tough and uncomfortable, but once you have confident to broke down everything, you can solve the problem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shared and asked in your cohort channel as possible! How you solve the problem, how you work.Sharing knowledge and you are helping each other.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is lots of skills like problem solving, communication skills matter with career, it’s not only coding&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Connecting with anyone and help everyone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Leetcode</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/leetcode/" />
+            <id>https://example.com/posts/leetcode/</id>
+            <updated>2022-11-07T17:24:12&#43;00:00</updated>
+            <published>2022-06-17T20:21:05&#43;08:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">Array  Remove Duplicates from Sorted Array  1 2 3 4  def remove_duplicates(nums) nums.uniq! return nums.length end   解法 使用 uniq 篩選出陣列中的不重覆數值並使用!改變原始陣列。 再使用 length 算出陣列長度
+Best Time to Buy and Sell Stock II  1 2 3 4 5 6 7  def max_profit(prices) max_profit = 0 prices.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;array&#34;&gt;Array&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Remove Duplicates from Sorted Array&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;remove_duplicates&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;uniq!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;解法
+使用 uniq   篩選出陣列中的不重覆數值並使用!改變原始陣列。
+再使用 length 算出陣列長度&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Best Time to Buy and Sell Stock II&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;max_profit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;prices&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;max_profit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;prices&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;each_cons&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;price&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;next_price&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;next_price&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;price&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;max_profit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;next_price&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;price&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;max_profit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;max_profit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;解法&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Rotate Array&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;rotate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rotate!&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;解法
+把 nums 使用 rotate 輸轉陣列並使用!改變原始陣列(移動 (-k))&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Ruby on Rails 面試題準備</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/interview/" />
             <id>https://example.com/posts/interview/</id>
-            <updated>2022-06-24T23:54:32&#43;08:00</updated>
+            <updated>2022-06-24T16:54:32&#43;01:00</updated>
             <published>2022-06-14T20:52:57&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -377,7 +589,7 @@ include是引用模組內的方法來擴充實體方法，而extend則是擴充�
             <title type="text">好用工具 LICEcap</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/licecap/" />
             <id>https://example.com/posts/licecap/</id>
-            <updated>2022-05-11T17:42:24&#43;08:00</updated>
+            <updated>2022-05-11T10:42:24&#43;01:00</updated>
             <published>2022-05-11T17:24:45&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -414,7 +626,7 @@ Mac使用者記得下載後，到 系統偏好設定 -&amp;gt; 安全性與隱�
             <title type="text">Rails I18n</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/rails_i18n/" />
             <id>https://example.com/posts/rails_i18n/</id>
-            <updated>2022-06-16T09:25:44&#43;08:00</updated>
+            <updated>2022-06-16T02:25:44&#43;01:00</updated>
             <published>2022-05-08T22:17:33&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -560,7 +772,7 @@ Rails 支持多國語系(Internationalization，簡稱I18n)，預設的語系是
             <title type="text">Rails Payment Gateway</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/rails_payment_gateway/" />
             <id>https://example.com/posts/rails_payment_gateway/</id>
-            <updated>2022-05-08T23:24:29&#43;08:00</updated>
+            <updated>2022-05-08T16:24:29&#43;01:00</updated>
             <published>2022-05-03T21:41:50&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -617,7 +829,7 @@ enum : 列舉&lt;/p&gt;
             <title type="text">Ruby on Rails devise</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_devise/" />
             <id>https://example.com/posts/ruby_on_rails_devise/</id>
-            <updated>2022-04-24T13:01:00&#43;08:00</updated>
+            <updated>2022-04-24T06:01:00&#43;01:00</updated>
             <published>2022-04-23T14:08:47&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -856,7 +1068,7 @@ config/initializers/devise.rb config/locales/devise.en.yml 接著在終端機的
             <title type="text">Ruby on Rails CRUD</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_crud/" />
             <id>https://example.com/posts/ruby_on_rails_crud/</id>
-            <updated>2022-04-24T14:00:36&#43;08:00</updated>
+            <updated>2022-04-24T07:00:36&#43;01:00</updated>
             <published>2022-04-16T02:13:13&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -1664,7 +1876,7 @@ rails會根據那個modle是不是全新的來判斷(猜測)&lt;code&gt;form.sub
             <title type="text">Ruby on Rails Environments</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_on_rails_environments/" />
             <id>https://example.com/posts/ruby_on_rails_environments/</id>
-            <updated>2022-04-18T01:03:12&#43;08:00</updated>
+            <updated>2022-04-17T18:03:12&#43;01:00</updated>
             <published>2022-04-16T01:26:50&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -1725,7 +1937,7 @@ Rails 7.0.2.3
             <title type="text">Beginner JavaScript Notes</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/java_script_notes/" />
             <id>https://example.com/posts/java_script_notes/</id>
-            <updated>2022-05-14T23:31:02&#43;08:00</updated>
+            <updated>2022-05-14T16:31:02&#43;01:00</updated>
             <published>2022-04-16T01:25:06&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -1853,7 +2065,7 @@ Rails 7.0.2.3
             <title type="text">filter, map and reduce in JS</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/java_script_method/" />
             <id>https://example.com/posts/java_script_method/</id>
-            <updated>2022-04-18T01:02:47&#43;08:00</updated>
+            <updated>2022-04-17T18:02:47&#43;01:00</updated>
             <published>2022-04-16T01:21:32&#43;08:00</published>
             <author>
                     <name>Daisy</name>
