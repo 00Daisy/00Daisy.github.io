@@ -16,7 +16,7 @@ It includes examples of my work, challenges completed, and the processes I have 
 - I can refactor anything
 - I have a methodical approach to solving problems
   
-###2. I'm equipped for long term growth
+### 2. I'm equipped for long term growth
 
 - I manage my own wellbeing
 - I can learn anything by myself
