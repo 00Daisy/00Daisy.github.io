@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Tue, 08 Nov 2022 18:53:34 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sat, 12 Nov 2022 22:27:07 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -37,14 +37,47 @@
                 
                 
                     <description>&lt;h2 id=&#34;week-1&#34;&gt;Week 1&lt;/h2&gt;
-&lt;h3 id=&#34;the-golden-square-challenges&#34;&gt;The Golden Square Challenges&lt;/h3&gt;
-&lt;p&gt;Phase One: Testing Bites&lt;/p&gt;
+&lt;h3 id=&#34;peer&#34;&gt;Peer&lt;/h3&gt;
+&lt;p&gt;9.30am we meet with our peer groups.
+These should run stand-up style to discuss what we did yesterday and intend to do today, as well as a source of connection and support.&lt;/p&gt;
+&lt;h4 id=&#34;week-1-peer-group-check-in-topic&#34;&gt;Week 1 peer group check-in topic&lt;/h4&gt;
+&lt;p&gt;Tues&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What do you think a peer group is for?&lt;/li&gt;
+&lt;li&gt;What do you want to use your peer group for?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s a priority in your life?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thurs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What traits in a person do you find challenging? How do you usually handle it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fri&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Name a highlight and a challenge that you experienced this week? How did you deal with the challenge?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-golden-square-challenges-solo--pairs&#34;&gt;The Golden Square Challenges (Solo &amp;amp; Pairs)&lt;/h3&gt;
+&lt;h4 id=&#34;phase-one-testing-bites&#34;&gt;Phase One: Testing Bites&lt;/h4&gt;
 &lt;p&gt;Work through this series of exercises designed to help you learn how to write tests with RSpec.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Testing Methods With Equality ( &lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/greet_spec.rb&#34;&gt;Exercise One&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/check_codeword_spec.rb&#34;&gt;Exercise Two&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/report_length_spec.rb&#34;&gt;Challenge&lt;/a&gt; )&lt;/li&gt;
-&lt;li&gt;Testing Classes With Equality ( &lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/counter_spec.rb&#34;&gt;Exercise One&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/string_builder_spec.rb&#34;&gt;Ecercise Two&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/gratitudes_spec.rb&#34;&gt;Challenge&lt;/a&gt; )&lt;/li&gt;
-&lt;li&gt;Testing For Errors ( &lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/present_spec.rb&#34;&gt;Exercise&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/password_checker_spec.rb&#34;&gt;Challenge&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Testing Methods With Equality (&lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/greet_spec.rb&#34;&gt;Exercise One&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/check_codeword_spec.rb&#34;&gt;Exercise Two&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/report_length_spec.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Testing Classes With Equality (&lt;a href=&#34;https://github.com/yulingyou/Rspec_project/blob/4a58145e21ba1899c26c5a4ee385e631143a9ae5/spec/counter_spec.rb&#34;&gt;Exercise One&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/string_builder_spec.rb&#34;&gt;Ecercise Two&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/gratitudes_spec.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Testing For Errors (&lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/present_spec.rb&#34;&gt;Exercise&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/test_classes/blob/443f8bea15523d6468e4bc2a48a21cbccc7e6eab/spec/password_checker_spec.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;phase-two-skill-challenges&#34;&gt;Phase Two: Skill Challenges&lt;/h4&gt;
+&lt;p&gt;Work through this series of challenges designed to help you learn a strong test-driving, object-oriented design, and debugging practices.&lt;/p&gt;
+&lt;p&gt;Some of these challenges include Process Feedback Challenges, in which you record yourself performing the task and share it with your coach for feedback. These are tagged with a 📡.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create Your Project&lt;/li&gt;
+&lt;li&gt;Test Drive a Single-Method Program(&lt;a href=&#34;https://github.com/yulingyou/Test_drive_single_method/blob/4b7eb338f7339b0fd61911b1ae9f8e154e79f0d6/spec/make_snippet_spec.rb&#34;&gt;Exercise&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Test_drive_single_method/blob/4b7eb338f7339b0fd61911b1ae9f8e154e79f0d6/spec/count_words_spec.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Design a Single-Method Program 📡(&lt;a href=&#34;https://github.com/makersacademy/golden-square/blob/b5ac6ce6fb41c6353034d12bfb51c9f8781604b3/resources/single_method_recipe_template.md&#34;&gt;Design single method recipe template&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Design_single_method/blob/dc49982ee3512af060e7626e0d02b8288e6db38a/spec/reading_time_spec.rb&#34;&gt;Exercise One&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Design_single_method/blob/dc49982ee3512af060e7626e0d02b8288e6db38a/grammar_checker.md&#34;&gt;Exercise Two recipe&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Design_single_method/blob/dc49982ee3512af060e7626e0d02b8288e6db38a/spec/grammar_checker_spec.rb&#34;&gt;Exercise Two&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Design_single_method/blob/dc49982ee3512af060e7626e0d02b8288e6db38a/track_my_task.md&#34;&gt;Challenge recipe&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/Design_single_method/blob/dc49982ee3512af060e7626e0d02b8288e6db38a/spec/track_my_task_spec.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Intermezzo: Debugging 1(&lt;a href=&#34;https://github.com/yulingyou/skill_challenges_04-09/blob/main/04.debugging/challenges/exercise_1.rb&#34;&gt;Exercise One&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/skill_challenges_04-09/blob/9b482d9b377916adb9d05a9a3f7484c73760ee04/04.debugging/challenges/exercise_2.rb&#34;&gt;Exercise Two&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/skill_challenges_04-09/blob/9b482d9b377916adb9d05a9a3f7484c73760ee04/04.debugging/challenges/challenges.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Test Drive a Class(&lt;a href=&#34;https://github.com/rkirkbride13/golden-square/blob/6897cea26462615941880dab5b98d6ed520d3fdd/06_single_class_test/spec/diary_entry_spec.rb&#34;&gt;Exercise&lt;/a&gt;, &lt;a href=&#34;https://github.com/rkirkbride13/golden-square/blob/6897cea26462615941880dab5b98d6ed520d3fdd/06_single_class_test/spec/grammar_stats_spec.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Design a Class 📡(&lt;a href=&#34;https://github.com/makersacademy/golden-square/blob/main/resources/single_class_recipe_template.md&#34;&gt;Design a class recipe template&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/skill_challenges_04-09/blob/f2e5c3250262bdecc7e02f2569d3aaf851e53b12/05.design_single_class/exercise.md&#34;&gt;Exercise recipe&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/skill_challenges_04-09/blob/f2e5c3250262bdecc7e02f2569d3aaf851e53b12/05.design_single_class/spec/exercise_spec.rb&#34;&gt;Exercise&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/skill_challenges_04-09/blob/f2e5c3250262bdecc7e02f2569d3aaf851e53b12/05.design_single_class/challenge.md&#34;&gt;Challenge recipe&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/skill_challenges_04-09/blob/f2e5c3250262bdecc7e02f2569d3aaf851e53b12/05.design_single_class/spec/challenge_spec.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Intermezzo: Debugging 2(&lt;a href=&#34;https://github.com/yulingyou/debugging_2/blob/8cb220ec2c0c3494487042aad4e469869edd381f/factorial.rb&#34;&gt;Exercise&lt;/a&gt;, &lt;a href=&#34;https://github.com/yulingyou/debugging_2/blob/8cb220ec2c0c3494487042aad4e469869edd381f/letter_counter.rb&#34;&gt;Challenge&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
