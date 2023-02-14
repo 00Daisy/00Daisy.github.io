@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-11-12T22:27:07&#43;00:00</updated>
+    <updated>2023-02-14T22:25:35&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,64 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">Month1 at Makers</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/month1_at_makers/" />
+            <id>https://example.com/posts/month1_at_makers/</id>
+            <updated>2023-02-14T22:25:32&#43;00:00</updated>
+            <published>2023-02-14T22:19:39&#43;00:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">Week 1 and 2 the Golden Square challenges  Learn to test-drive programs with multiple classes. Learn to break programs up into classes. Learn to debug your programs. Learn to build software as a pair. Learn to explain why test-driving, object-oriented design, debugging, and pairing are powerful practices for software engineers.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;week-1-and-2&#34;&gt;Week 1 and 2&lt;/h2&gt;
+&lt;h3 id=&#34;the-golden-square-challenges&#34;&gt;the Golden Square challenges&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn to test-drive programs with multiple classes.&lt;/li&gt;
+&lt;li&gt;Learn to break programs up into classes.&lt;/li&gt;
+&lt;li&gt;Learn to debug your programs.&lt;/li&gt;
+&lt;li&gt;Learn to build software as a pair.&lt;/li&gt;
+&lt;li&gt;Learn to explain why test-driving, object-oriented design, debugging, and pairing are powerful practices for software engineers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;goal&#34;&gt;Goal&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;I can TDD anything&lt;/li&gt;
+&lt;li&gt;I can program fluently&lt;/li&gt;
+&lt;li&gt;I can debug anything&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;week-3&#34;&gt;Week 3&lt;/h2&gt;
+&lt;h3 id=&#34;databases-challenges&#34;&gt;Databases challenges&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Design a database schema with at least two tables from a specification, including a one-to-many relationship between two tables, and create the schema in a database using SQL.&lt;/li&gt;
+&lt;li&gt;Use SQL to query a database to read data from one table or resulting of a join, create new records, update and delete.&lt;/li&gt;
+&lt;li&gt;Integrate a relational database to a program by test-driving classes which implement CRUD methods to send SQL queries to a database.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;week-4&#34;&gt;Week 4&lt;/h2&gt;
+&lt;h2 id=&#34;web-applications-challenges&#34;&gt;Web applications challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain how HTTP requests and responses work at a high level&lt;/li&gt;
+&lt;li&gt;Write integration tests for a web application&lt;/li&gt;
+&lt;li&gt;Implement web routes using a lightweight web framework&lt;/li&gt;
+&lt;li&gt;Follow a debugging process for a web application&lt;/li&gt;
+&lt;li&gt;Deploy a web application using a light cloud service such as Heroku&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Week1 at Makers</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/week1_at_makers/" />
