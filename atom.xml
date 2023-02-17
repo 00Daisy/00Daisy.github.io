@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-02-15T16:10:27&#43;00:00</updated>
+    <updated>2023-02-17T21:55:50&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,16 +20,16 @@
             <title type="text">Polymorphism</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/polymorphism/" />
             <id>https://example.com/posts/polymorphism/</id>
-            <updated>2023-02-15T16:10:08&#43;00:00</updated>
+            <updated>2023-02-15T18:21:10&#43;00:00</updated>
             <published>2023-02-15T16:06:17&#43;00:00</published>
             <author>
                     <name>Daisy</name>
                     <uri>https://io-oi.me/</uri>
                     <email>ysiad926@gmail.com</email>
                     </author>
-            <summary type="html">What is &amp;ldquo;polymorphism&amp;rdquo; Polymorphism is a concept in object-oriented programming that refers to the ability of an object to take on many forms or have multiple behaviors. Specifically, it allows different objects to be treated as if they were the same type of object, even if they are different.</summary>
+            <summary type="html">What is &amp;ldquo;Polymorphism&amp;rdquo; Polymorphism is a concept in object-oriented programming that refers to the ability of an object to take on many forms or have multiple behaviors. Specifically, it allows different objects to be treated as if they were the same type of object, even if they are different.</summary>
             
-                <content type="html">&lt;h2 id=&#34;what-is-polymorphism&#34;&gt;What is &amp;ldquo;polymorphism&amp;rdquo;&lt;/h2&gt;
+                <content type="html">&lt;h2 id=&#34;what-is-polymorphism&#34;&gt;What is &amp;ldquo;Polymorphism&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Polymorphism is a concept in object-oriented programming that refers to the ability of an object to take on many forms or have multiple behaviors. Specifically, it allows different objects to be treated as if they were the same type of object, even if they are different. This means that the same method or operation can be used on different objects, and each object will behave differently based on its own internal implementation.&lt;/p&gt;
 &lt;p&gt;Polymorphism is typically achieved through inheritance and method overriding, which allows a subclass to override the implementation of a method inherited from its superclass. This means that different subclasses of the same superclass can have different behaviors for the same method, and can therefore be treated as if they were the same type of object.&lt;/p&gt;
 &lt;p&gt;Polymorphism is a key concept in object-oriented programming, as it allows code to be written in a more general and reusable way. By treating objects as if they were the same type of object, code can be written that is more modular, flexible, and easier to maintain, since it can be used with different types of objects without modification.&lt;/p&gt;
