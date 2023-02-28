@@ -1,6 +1,6 @@
 # [Yu-Ling's Blog](https://yulingyou.com/)
 
-This is my learning journey at coding, incuding the learning goals at Makers Academy.
+This is my learning journey at coding, including the learning goals at Makers Academy.
 
 It includes examples of my work, challenges completed, and the processes I have learnt and developed while working towards the following goals.
 
