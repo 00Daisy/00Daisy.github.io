@@ -21,13 +21,13 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Thu, 02 Mar 2023 23:12:08 &#43;0000</lastBuildDate>
+        <lastBuildDate>Thu, 02 Mar 2023 23:14:47 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
         
             <item>
-                <title>Include_vs_extend</title>
+                <title>Include vs Extend</title>
                 <link>https://example.com/posts/include_vs_extend/</link>
                 <guid isPermaLink="true">https://example.com/posts/include_vs_extend/</guid>
                 <pubDate>Thu, 02 Mar 2023 22:51:16 &#43;0000</pubDate>
