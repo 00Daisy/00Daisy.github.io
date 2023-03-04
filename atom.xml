@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-03-02T23:14:47&#43;00:00</updated>
+    <updated>2023-03-04T16:52:32&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -2200,7 +2200,7 @@ Best Time to Buy and Sell Stock II  1 2 3 4 5 6 7  def max_profit(prices) max_pr
             <title type="text">Ruby on Rails 面試題準備</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/interview/" />
             <id>https://example.com/posts/interview/</id>
-            <updated>2022-06-24T16:54:32&#43;01:00</updated>
+            <updated>2023-03-04T16:52:10&#43;00:00</updated>
             <published>2022-06-14T20:52:57&#43;08:00</published>
             <author>
                     <name>Daisy</name>
@@ -2530,8 +2530,11 @@ has_one 不是設定，它是一個類別方法，例子中的 store 是它的�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;十四、 include、extend、reuqire、load&lt;/p&gt;
-&lt;p&gt;require,load用於檔案，如.rb等等結尾的檔案。include,load則用於包含一個檔案中的模組
-include是引用模組內的方法來擴充實體方法，而extend則是擴充類別方法&lt;/p&gt;
+&lt;p&gt;include：include是用於向類中包含模組的關鍵字。它將指定的模組中的方法添加到類的實例中，使其可以調用模組中的方法。&lt;/p&gt;
+&lt;p&gt;extend：extend也是用於向類中包含模組的關鍵字，但是它將指定的模組中的方法添加到類本身中，使得該類可以調用模組中的方法。&lt;/p&gt;
+&lt;p&gt;require：require是用於加載其他 Ruby 文件中的程式碼。它可以將其他文件中的類、方法和變量加載到當前文件中。如果該文件已經加載過了，require將不會再次加載。&lt;/p&gt;
+&lt;p&gt;load：load也是用於加載其他 Ruby 文件中的程式碼。它和require的區別在於，load每次都會重新加載指定的文件，即使該文件已經加載過了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://yulingyou.com/posts/include_vs_extend/&#34;&gt;include vs extend &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;十五、API&lt;/p&gt;
 &lt;p&gt;十六、RESTful&lt;/p&gt;
 &lt;p&gt;十七、CACHE 暫存&lt;/p&gt;
