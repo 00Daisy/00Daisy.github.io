@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-03-04T16:52:32&#43;00:00</updated>
+    <updated>2023-03-06T22:15:07&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,284 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">Bash and Zsh</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/bash_and_zsh/" />
+            <id>https://example.com/posts/bash_and_zsh/</id>
+            <updated>2023-03-06T22:14:53&#43;00:00</updated>
+            <published>2023-03-06T20:45:38&#43;00:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">What is Bash Bash, short for &amp;ldquo;Bourne-Again SHell&amp;rdquo;, is a Unix shell and command language that is widely used on Unix and Linux operating systems. It was written by Brian Fox for the GNU Project as a free software replacement for the original Bourne shell (sh), and has since become the default shell on most Linux distributions as well as on macOS.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;what-is-bash&#34;&gt;What is Bash&lt;/h2&gt;
+&lt;p&gt;Bash, short for &amp;ldquo;Bourne-Again SHell&amp;rdquo;, is a Unix shell and command language that is widely used on Unix and Linux operating systems. It was written by Brian Fox for the GNU Project as a free software replacement for the original Bourne shell (sh), and has since become the default shell on most Linux distributions as well as on macOS.&lt;/p&gt;
+&lt;p&gt;As a command language, Bash allows users to interact with a Unix-based operating system through a command-line interface. Users can enter commands to launch applications, manipulate files and directories, run scripts, and perform other system-related tasks. Bash also provides features such as command history, tab completion, and input and output redirection, which can help users work more efficiently.&lt;/p&gt;
+&lt;p&gt;Bash is also a scripting language, which means that users can write Bash scripts to automate repetitive tasks or perform more complex operations. Bash scripts can be used for a variety of purposes, such as system administration, data processing, and web development, among others.&lt;/p&gt;
+&lt;p&gt;Overall, Bash is a powerful and versatile tool for working with Unix-based operating systems, and is widely used by developers, system administrators, and power users alike.&lt;/p&gt;
+&lt;h2 id=&#34;whats-the-different-with-zsh&#34;&gt;What&amp;rsquo;s the different with Zsh&lt;/h2&gt;
+&lt;p&gt;Zsh, short for &amp;ldquo;Z Shell&amp;rdquo;, is another Unix shell and command language, and is also widely used on Unix and Linux operating systems. Zsh was developed as an extended version of the Bourne shell (sh) and the Korn shell (ksh), and offers many features and enhancements that are not available in Bash.&lt;/p&gt;
+&lt;p&gt;One major difference between Bash and Zsh is that Zsh has better tab completion and correction capabilities. Zsh provides more advanced tab completion, which allows for more flexible and efficient command-line usage. Zsh also has a feature called &amp;ldquo;correction,&amp;rdquo; which automatically corrects common spelling mistakes and other errors in commands.&lt;/p&gt;
+&lt;p&gt;Another difference is that Zsh has a built-in module system that allows for easy customization and extension of the shell. Users can add or remove features and functionalities by loading or unloading modules, making it easier to tailor the shell to their specific needs.&lt;/p&gt;
+&lt;p&gt;Finally, Zsh has a more modern and user-friendly configuration system, which makes it easier to customize and configure the shell to the user&amp;rsquo;s preferences.&lt;/p&gt;
+&lt;p&gt;Overall, while Bash and Zsh share many similarities, Zsh provides more advanced features and customization options, making it a popular choice among power users and developers who require a high level of flexibility and control over their shell environment.&lt;/p&gt;
+&lt;h2 id=&#34;whats-the-different-with-javascript&#34;&gt;What&amp;rsquo;s the different with JavaScript&lt;/h2&gt;
+&lt;p&gt;Bash and JavaScript are two very different programming languages that serve different purposes.&lt;/p&gt;
+&lt;p&gt;Bash is primarily a scripting language used for automating tasks and running system commands on Unix and Linux operating systems. It is typically used in a command-line interface and has a syntax optimized for executing commands and manipulating files and directories. Bash is often used for tasks such as system administration, automation, and data processing.&lt;/p&gt;
+&lt;p&gt;JavaScript, on the other hand, is a high-level programming language that is used primarily for web development. It is executed within web browsers and is used to add interactivity and dynamic behavior to web pages. JavaScript is also used on the server side with Node.js to build full-stack web applications, as well as for developing mobile and desktop applications.&lt;/p&gt;
+&lt;p&gt;While both Bash and JavaScript are used for programming, their syntax, use cases, and features are very different. Bash is focused on running system commands and automating tasks, while JavaScript is focused on building interactive and dynamic web applications.&lt;/p&gt;
+&lt;h2 id=&#34;filedirectory-permissions&#34;&gt;File/directory permissions&lt;/h2&gt;
+&lt;p&gt;In Linux/Unix systems, every file and directory has a set of permissions that control access to that file or directory. Permissions are determined by three categories: owner, group, and others.&lt;/p&gt;
+&lt;p&gt;Each category can have three types of permissions: read (r), write (w), and execute (x). These permissions have the following meanings:&lt;/p&gt;
+&lt;p&gt;Read permission (r): Can read and view the contents of the file or directory.
+Write permission (w): Can modify the contents of the file or directory, including adding, deleting, and renaming.
+Execute permission (x): For files, can run executable files; for directories, can enter the directory.
+Permissions can be represented using numbers or letters. When using letters to represent permissions, r represents read permission, w represents write permission, and x represents execute permission. When using numbers to represent permissions, each permission has a numeric value, with r as 4, w as 2, and x as 1, so rwx is 7 (4+2+1).&lt;/p&gt;
+&lt;p&gt;For example, a file with permission -rw-r&amp;ndash;r&amp;ndash; means the owner has read and write permissions while the group and others only have read permission.&lt;/p&gt;
+&lt;h2 id=&#34;bash-commands&#34;&gt;Bash commands&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;ls -l filename: display detailed information about a file or directory. The &amp;ldquo;-l&amp;rdquo; option stands for &amp;ldquo;long&amp;rdquo; and displays additional information, such as the file or directory&amp;rsquo;s permissions, owner, group, size, creation date, and modification date.&lt;/li&gt;
+&lt;li&gt;cd: change the current directory&lt;/li&gt;
+&lt;li&gt;pwd: display the full path of the current working directory&lt;/li&gt;
+&lt;li&gt;mkdir: create a new directory&lt;/li&gt;
+&lt;li&gt;rm: remove files or directories&lt;/li&gt;
+&lt;li&gt;cp: copy files or directories&lt;/li&gt;
+&lt;li&gt;mv: move or rename files or directories&lt;/li&gt;
+&lt;li&gt;cat: view the contents of a file&lt;/li&gt;
+&lt;li&gt;less: view the contents of a file one page at a time&lt;/li&gt;
+&lt;li&gt;grep: search for a specified string in a file&lt;/li&gt;
+&lt;li&gt;find: search for a specified file or directory in the file system&lt;/li&gt;
+&lt;li&gt;chmod: change the permissions of a file or directory
+e.g. chmod +x filename&lt;/li&gt;
+&lt;li&gt;chown: change the owner of a file or directory&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;build-up-example&#34;&gt;Build up Example&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#3hours=10800 s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;reminder_interval&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;next_reminder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(($(&lt;/span&gt;date +%s&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$reminder_interval&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; true&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;current_time&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;date +%s&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$current_time&lt;/span&gt; -ge &lt;span class=&#34;nv&#34;&gt;$next_reminder&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;it&amp;#39;s time to drink water&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nv&#34;&gt;next_reminder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$((&lt;/span&gt;current_time &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$reminder_interval&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sleep &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;#!/bin/bash&lt;/code&gt;: This is a shebang line that specifies which interpreter should be used to execute the script. In this case, it specifies that the Bash shell should be used.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;#3hours=10800&lt;/code&gt; s: This is a comment line that provides a brief explanation of what the script does. It notes that 3 hours equals 10,800 seconds.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;reminder_interval=10&lt;/code&gt;: This line sets a variable called &lt;code&gt;reminder_interval&lt;/code&gt; to 10, which represents the number of seconds between reminders to drink water.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;next_reminder=$(($(date +%s) + $reminder_interval))&lt;/code&gt;: This line calculates the time of the next reminder to drink water by getting the current time in seconds since the Unix epoch (date +%s) and adding the reminder interval to it. The result is stored in a variable called next_reminder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;while true; do&lt;/code&gt;: This starts an infinite loop that will continue until the script is interrupted or killed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;current_time=$(date +%s)&lt;/code&gt;: This line gets the current time in seconds since the Unix epoch and stores it in a variable called current_time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;if [ $current_time -ge $next_reminder ]; then&lt;/code&gt;: This line checks whether the current time is greater than or equal to the next reminder time. If it is, the script will print a message reminding the user to drink water.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;echo &amp;quot;it&#39;s time to drink water&amp;quot;&lt;/code&gt;: This line prints a reminder message to the console.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;next_reminder=$((current_time + $reminder_interval))&lt;/code&gt;: This line updates the next_reminder variable to be the current time plus the reminder interval.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;fi&lt;/code&gt;: This line closes the if statement.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;sleep 5&lt;/code&gt;: This line pauses the script for 5 seconds before starting the loop again. This delay is used to prevent the script from consuming too many system resources.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bash-是什麼&#34;&gt;Bash 是什麼&lt;/h2&gt;
+&lt;p&gt;Bash（Bourne-Again SHell）是一種在Linux和其他Unix操作系統上常用的命令行解釋器，它是由Brian Fox和Chet Ramey於1987年開發的。Bash是一種文本界面的操作環境，可以通過在終端窗口中輸入命令來執行各種系統操作，例如檔案管理、系統配置、程序啟動等。Bash支持各種內置命令和腳本語言，這些功能可以用於自動化和編寫各種系統管理任務。&lt;/p&gt;
+&lt;p&gt;Bash是Linux系統中最常見的shell之一，也是許多Unix系統預設的shell。Bash具有豐富的功能，如命令自動完成、歷史命令查詢、腳本編寫等，使得用戶可以更加高效地使用Linux和其他Unix系統。&lt;/p&gt;
+&lt;h2 id=&#34;與-zsh-的差異&#34;&gt;與 Zsh 的差異&lt;/h2&gt;
+&lt;p&gt;Zsh（Z shell）是一種強大的命令行解釋器，也是Linux和Unix系統中的一種shell。Zsh與Bash非常相似，兩者都提供了一個強大的命令行界面，可以用於檔案管理、腳本編寫和系統管理等任務。但是，Zsh相對於Bash在以下幾個方面有一些不同之處：&lt;/p&gt;
+&lt;p&gt;自動補全：Zsh提供更強大的自動補全功能，支持多個輸入源，如歷史命令、檔案、目錄等。&lt;/p&gt;
+&lt;p&gt;設定管理：Zsh提供更簡單的設定管理方式，包括類似於Oh My Zsh的外掛程式，可以幫助用戶快速定制shell界面和功能。&lt;/p&gt;
+&lt;p&gt;選項設定：Zsh提供了更多的選項設定，例如更好的警告和錯誤信息、更豐富的Shell Parameter Expansion等。&lt;/p&gt;
+&lt;p&gt;終端顏色：Zsh內建支援更豐富的終端顏色和風格選項。&lt;/p&gt;
+&lt;p&gt;總的來說，Zsh和Bash都是強大的命令行解釋器，兩者有很多共同點，但是Zsh在一些方面提供了更強大和便利的功能。當然，哪種shell更適合您取決於您個人的偏好和需求。&lt;/p&gt;
+&lt;h2 id=&#34;跟-javascript-有什麼不同&#34;&gt;跟 javascript 有什麼不同&lt;/h2&gt;
+&lt;p&gt;Bash和JavaScript都是程式語言，但它們有著不同的用途和設計目標，因此有以下幾個不同之處：&lt;/p&gt;
+&lt;p&gt;用途不同：Bash主要用於在Unix和Linux系統上進行系統管理和自動化任務，而JavaScript主要用於網頁前端和後端開發。&lt;/p&gt;
+&lt;p&gt;語言特性不同：Bash是一種腳本語言，它具有許多與命令行相關的特性，例如命令行解釋、管道和重定向等。而JavaScript是一種通用的語言，具有面向對象、函數式和事件驅動等特性。&lt;/p&gt;
+&lt;p&gt;運行環境不同：Bash在Unix和Linux系統上運行，而JavaScript可以在網頁瀏覽器、Node.js和其他JavaScript運行環境中運行。&lt;/p&gt;
+&lt;p&gt;語言生態系統不同：Bash的生態系統主要集中在Unix和Linux系統中，而JavaScript擁有廣泛的生態系統，包括許多框架、函式庫和工具。&lt;/p&gt;
+&lt;p&gt;總的來說，Bash和JavaScript都是程式語言，但是它們的設計目標和用途不同，因此擁有不同的語言特性和生態系統。&lt;/p&gt;
+&lt;h2 id=&#34;文件權限&#34;&gt;文件權限&lt;/h2&gt;
+&lt;p&gt;在 Linux/Unix 系統中，每個文件和目錄都有一組權限，控制對該文件或目錄的訪問。權限是由三個類別決定的：所有者、群組和其他人。&lt;/p&gt;
+&lt;p&gt;每個類別可以有三種權限：讀取（r）、寫入（w）和執行（x）。這些權限的意義如下：&lt;/p&gt;
+&lt;p&gt;讀取權限（r）：可以讀取和查看文件或目錄的內容。
+寫入權限（w）：可以修改文件或目錄的內容，包括添加、刪除和重命名。
+執行權限（x）：對於文件，可以運行可執行文件；對於目錄，可以進入目錄。
+權限可以用數字或字母表示。使用字母表示權限時，r 表示讀取權限，w 表示寫入權限，x 表示執行權限。使用數字表示權限時，每種權限都有一個數字值，r 為 4，w 為 2，x 為 1，因此 rwx 為 7（4+2+1）。&lt;/p&gt;
+&lt;p&gt;例如，權限為 -rw-r&amp;ndash;r&amp;ndash; 的文件表示所有者具有讀寫權限，而群組和其他人僅具有讀取權限。&lt;/p&gt;
+&lt;h2 id=&#34;bash-命令&#34;&gt;Bash 命令&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;echo $SHELL&lt;/code&gt;確認目前 macOS 系統使用的 shell
+&lt;code&gt;chsh -s /bin/bash&lt;/code&gt;更改當前的 shell為 Bash shell&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ls -l 檔案名: 顯示文件和目錄詳細信息的命令，其中 &amp;ldquo;-l&amp;rdquo; 參數表示 &amp;ldquo;long&amp;rdquo;，可以顯示文件或目錄的詳細屬性信息。這些詳細信息包括文件/目錄的權限、所有者、所屬組、大小、創建日期、修改日期等。&lt;/li&gt;
+&lt;li&gt;cd：改變當前目錄。&lt;/li&gt;
+&lt;li&gt;pwd：顯示當前工作目錄的完整路徑。&lt;/li&gt;
+&lt;li&gt;mkdir：創建一個新目錄。&lt;/li&gt;
+&lt;li&gt;rm：刪除文件或目錄。&lt;/li&gt;
+&lt;li&gt;cp：複製文件或目錄。&lt;/li&gt;
+&lt;li&gt;mv：移動或重命名文件或目錄。&lt;/li&gt;
+&lt;li&gt;cat：查看文件的內容。&lt;/li&gt;
+&lt;li&gt;less：逐頁查看文件內容。&lt;/li&gt;
+&lt;li&gt;grep：在文件中搜索指定字串。&lt;/li&gt;
+&lt;li&gt;find：在文件系統中搜索指定文件或目錄。&lt;/li&gt;
+&lt;li&gt;chmod：更改文件或目錄的權限。
+e.g. &lt;code&gt;chmod +x 檔案名&lt;/code&gt;;&lt;code&gt;chmod g+x 檔案名&lt;/code&gt;，權限類別可以是 u（所有者）、g（群組）或 o（其他人）。使用 + 來添加權限，- 來移除權限，或 = 來設置權限。x 表示執行權限。&lt;/li&gt;
+&lt;li&gt;chown：更改文件或目錄的所有者。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;範例&#34;&gt;範例&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;新增並編輯腳本 &lt;code&gt;nano stay_hyderated.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;執行 &lt;code&gt;./stay_hyderated.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;每隔15秒會顯示&lt;code&gt;it&#39;s time to drink water &lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;stay_hyderated.sh&lt;/code&gt;腳本內容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#3hours=10800 s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;reminder_interval&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;next_reminder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(($(&lt;/span&gt;date +%s&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$reminder_interval&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; true&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;current_time&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;date +%s&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$current_time&lt;/span&gt; -ge &lt;span class=&#34;nv&#34;&gt;$next_reminder&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;it&amp;#39;s time to drink water&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nv&#34;&gt;next_reminder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$((&lt;/span&gt;current_time &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$reminder_interval&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sleep &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;這個範例是一個bash腳本，用來提醒你每隔一段時間就要喝水。腳本首先定義了一個變量&lt;code&gt;reminder_interval&lt;/code&gt;，表示提醒的間隔時間，這裡設置為10秒。&lt;/p&gt;
+&lt;p&gt;接下來，腳本進入一個無限循環中，每次循環都會檢查當前時間是否已經超過了下一個提醒時間。如果已經到達了提醒時間，腳本會輸出一條消息，提示你喝水 &lt;code&gt;it&#39;s time to drink water &lt;/code&gt;，然後更新下一個提醒時間為當前時間加上提醒間隔時間。&lt;/p&gt;
+&lt;p&gt;循環的每次迭代之間，腳本會暫停5秒，以減少系統資源的使用。&lt;/p&gt;
+&lt;p&gt;等於每個循環會間隔10秒，然後腳本會等待5秒再進入下一個循環，這樣每個循環總共會耗時大約15秒左右（10秒的提醒間隔加上5秒的暫停時間）。&lt;/p&gt;
+&lt;p&gt;每行說明如下&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;#!/bin/bash&lt;/code&gt;: Shebang是一種特殊的註釋語法，用於指定腳本應使用哪個解譯器來執行。它通常是腳本文件的第一行，並以#!開頭。本行指定了腳本的解釋器，即在執行腳本時使用Bash作為解釋器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;#3hours=10800&lt;/code&gt; s: 第一行指定了腳本的解釋器，即在執行腳本時使用Bash作為解釋器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;reminder_interval=10&lt;/code&gt;: 這一行設置reminder_interval變量的值為10，即提醒的間隔時間為10秒。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;next_reminder=$(($(date +%s) + $reminder_interval))&lt;/code&gt;: 計算下一個提醒時間，它使用&lt;code&gt;$(...)&lt;/code&gt;來運行一個子命令。 &lt;code&gt; $(date +%s)&lt;/code&gt; 用於獲取當前時間的UNIX時間戳（以秒為單位），然後加上&lt;code&gt;reminder_interval&lt;/code&gt;的值來計算下一個提醒時間。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;while true; do&lt;/code&gt;: 這是一個無限循環的開始。它使用&lt;code&gt;while true&lt;/code&gt;來表示進入一個無限循環中，因為 true 總是返回成功。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;current_time=$(date +%s)&lt;/code&gt;: 獲取當前時間的UNIX時間戳，並將其賦值給&lt;code&gt;current_time&lt;/code&gt;變量。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;if [ $current_time -ge $next_reminder ]; then&lt;/code&gt;: 一個if語句，用於檢查是否已經到達下一個提醒時間。&lt;code&gt;-ge&lt;/code&gt; 表示大於或等於，如果&lt;code&gt;current_time&lt;/code&gt;大於或等於&lt;code&gt;next_reminder&lt;/code&gt;，那麼就執行&lt;code&gt;then&lt;/code&gt;後面的語句。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;echo &amp;quot;it&#39;s time to drink water&amp;quot;&lt;/code&gt;: 如果到達了提醒時間，則輸出一條消息，提示你喝水。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;next_reminder=$((current_time + $reminder_interval))&lt;/code&gt;: 這一行更新&lt;code&gt;next_reminder&lt;/code&gt;的值，以計算下一個提醒時間。它使用&lt;code&gt;$((...))&lt;/code&gt;來執行一個算術運算，計算當前時間加上提醒間隔時間的值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;fi&lt;/code&gt;: 這是if語句的結束標記。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;sleep 5&lt;/code&gt;: 這一行使腳本暫停5秒，以減少系統資源的使用。每次循環之間暫停一段時間可以使腳本不會一直忙碌並浪費資源。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;done&lt;/code&gt;: 這是無限循環的結束。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Include vs Extend</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/include_vs_extend/" />
