@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-03-06T22:15:07&#43;00:00</updated>
+    <updated>2023-03-06T22:22:14&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Bash and Zsh</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/bash_and_zsh/" />
             <id>https://example.com/posts/bash_and_zsh/</id>
-            <updated>2023-03-06T22:14:53&#43;00:00</updated>
+            <updated>2023-03-06T22:22:10&#43;00:00</updated>
             <published>2023-03-06T20:45:38&#43;00:00</published>
             <author>
                     <name>Daisy</name>
@@ -146,6 +146,13 @@ e.g. chmod +x filename&lt;/li&gt;
 &lt;p&gt;&lt;code&gt;sleep 5&lt;/code&gt;: This line pauses the script for 5 seconds before starting the loop again. This delay is used to prevent the script from consuming too many system resources.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A shell is a command-line interface (CLI) that provides a way for users to interact with an operating system. In Unix and Unix-like systems, such as macOS and Linux, the shell is an interface through which users can enter commands to interact with the operating system.
+Common shells in Unix systems include Bash, Zsh, Ksh, Tcsh, and others. In macOS, the default shell is Zsh.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devhints.io/bash&#34;&gt;Bash scripting cheatsheet&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;bash-是什麼&#34;&gt;Bash 是什麼&lt;/h2&gt;
 &lt;p&gt;Bash（Bourne-Again SHell）是一種在Linux和其他Unix操作系統上常用的命令行解釋器，它是由Brian Fox和Chet Ramey於1987年開發的。Bash是一種文本界面的操作環境，可以通過在終端窗口中輸入命令來執行各種系統操作，例如檔案管理、系統配置、程序啟動等。Bash支持各種內置命令和腳本語言，這些功能可以用於自動化和編寫各種系統管理任務。&lt;/p&gt;
 &lt;p&gt;Bash是Linux系統中最常見的shell之一，也是許多Unix系統預設的shell。Bash具有豐富的功能，如命令自動完成、歷史命令查詢、腳本編寫等，使得用戶可以更加高效地使用Linux和其他Unix系統。&lt;/p&gt;
@@ -280,6 +287,12 @@ e.g. &lt;code&gt;chmod +x 檔案名&lt;/code&gt;;&lt;code&gt;chmod g+x 檔案名
 &lt;p&gt;&lt;code&gt;done&lt;/code&gt;: 這是無限循環的結束。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shell 是一種命令行界面（Command Line Interface, CLI），是一個人與操作系統之間進行互動的方式。在 Unix 和類 Unix 系統（如 macOS 和 Linux）中，Shell 是一個介面，用戶可以通過命令行輸入命令，從而與操作系統進行互動。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devhints.io/bash&#34;&gt;Bash scripting cheatsheet&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
             
             
