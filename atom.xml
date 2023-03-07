@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-03-06T22:22:14&#43;00:00</updated>
+    <updated>2023-03-07T22:26:28&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,51 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">SOLID</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/solid/" />
+            <id>https://example.com/posts/solid/</id>
+            <updated>2023-03-07T22:26:17&#43;00:00</updated>
+            <published>2023-03-07T22:19:42&#43;00:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">What is SOLID SOLID is an acronym for a set of five design principles for writing maintainable and scalable software. These principles were introduced by Robert C. Martin (also known as &amp;ldquo;Uncle Bob&amp;rdquo;) and have become widely accepted as best practices in software development.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;what-is-solid&#34;&gt;What is SOLID&lt;/h2&gt;
+&lt;p&gt;SOLID is an acronym for a set of five design principles for writing maintainable and scalable software. These principles were introduced by Robert C. Martin (also known as &amp;ldquo;Uncle Bob&amp;rdquo;) and have become widely accepted as best practices in software development.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a brief overview of each principle:&lt;/p&gt;
+&lt;p&gt;Single Responsibility Principle (SRP): A class should have only one reason to change. This means that a class should have only one responsibility or job. This principle helps in reducing complexity and making the code easier to maintain.&lt;/p&gt;
+&lt;p&gt;Open/Closed Principle (OCP): Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that you should be able to add new functionality without changing the existing code. This principle helps in making the code more modular and flexible.&lt;/p&gt;
+&lt;p&gt;Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types. This means that any object of a class should be able to be replaced with an object of its subclass without affecting the correctness of the program. This principle helps in ensuring the correct behavior of the code when using polymorphism.&lt;/p&gt;
+&lt;p&gt;Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use. This means that a class should not be forced to implement methods it doesn&amp;rsquo;t need. This principle helps in making the code more modular and preventing unnecessary dependencies.&lt;/p&gt;
+&lt;p&gt;Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. This means that the high-level modules should be independent of the low-level modules and should instead depend on abstractions. This principle helps in making the code more flexible and easier to maintain.&lt;/p&gt;
+&lt;p&gt;Together, these five principles form SOLID, a set of guidelines that can help you write more maintainable and scalable software.&lt;/p&gt;
+&lt;h2 id=&#34;solid-是什麼&#34;&gt;SOLID 是什麼&lt;/h2&gt;
+&lt;p&gt;SOLID原則是一組關於撰寫可維護性和可擴展性軟體的五個設計原則。這些原則由Robert C. Martin（也稱為&amp;quot;Uncle Bob&amp;quot;）所提出，已成為軟體開發中廣泛接受的最佳實踐。&lt;/p&gt;
+&lt;p&gt;以下是每個原則的簡要概述：&lt;/p&gt;
+&lt;p&gt;單一職責原則（SRP）：一個類別應該只有一個變更的原因。這意味著一個類別只應該有一個職責或工作。這個原則有助於減少複雜性，使程式碼更容易維護。&lt;/p&gt;
+&lt;p&gt;開放/封閉原則（OCP）：軟體實體（類別、模組、函式等）應該對擴展開放，但對修改封閉。這意味著您應該能夠添加新功能而不更改現有的程式碼。這個原則有助於使程式碼更模組化和靈活。&lt;/p&gt;
+&lt;p&gt;里氏替換原則（LSP）：子類別必須能夠替換其基類別。這意味著一個類別的任何物件都應該能夠被其子類別的物件替換，而不會影響程式的正確性。這個原則有助於確保使用多型時程式碼的正確行為。&lt;/p&gt;
+&lt;p&gt;介面隔離原則（ISP）：客戶端不應被迫依賴它們不使用的介面。這意味著一個類別不應被迫實現它不需要的方法。這個原則有助於使程式碼更模組化並防止不必要的相依性。&lt;/p&gt;
+&lt;p&gt;依賴反轉原則（DIP）：高層模組不應依賴於低層模組。兩者都應該依賴於抽象。抽象不應該依賴於細節。細節應該依賴於抽象。這意味著高層模組應該獨立於低層模組，而應該依賴於抽象。這個原則有助於使代碼更具靈活性和易於維護。&lt;/p&gt;
+&lt;p&gt;這五個原則組成了SOLID，是一套指南，可幫助您撰寫更具可維護性和可擴展性的軟體。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Bash and Zsh</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/bash_and_zsh/" />
