@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-03-07T22:26:28&#43;00:00</updated>
+    <updated>2023-03-08T22:04:06&#43;00:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -1381,7 +1381,7 @@ Encapsulation enables the programmer to hide the implementation details of the c
             <title type="text">Object Oriented Programming</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/oop/" />
             <id>https://example.com/posts/oop/</id>
-            <updated>2023-02-23T22:37:10&#43;00:00</updated>
+            <updated>2023-03-08T22:03:55&#43;00:00</updated>
             <published>2023-02-20T21:20:19&#43;00:00</published>
             <author>
                     <name>Daisy</name>
@@ -1396,11 +1396,9 @@ In OOP, objects in software are made up of data properties and methods that oper
 &lt;p&gt;In OOP, objects in software are made up of data properties and methods that operate on that data. These objects can be seen as entities within the software, and they work together to accomplish specific tasks. For example, a bank account object might have properties such as balance and account number, and methods such as deposit and withdraw.&lt;/p&gt;
 &lt;p&gt;The fundamental concepts of OOP are &amp;ldquo;classes&amp;rdquo; and &amp;ldquo;objects&amp;rdquo;. Classes describe the blueprint or template for objects, and objects are instances created from these classes. In OOP, objects can be made more flexible through concepts such as inheritance and polymorphism, making the code more organized, reusable, and easier to maintain.&lt;/p&gt;
 &lt;p&gt;OOP provides a way to break down complex programs into smaller, more manageable parts. By breaking a program into classes and objects, we can create code that is easier to understand, modify, and maintain. Additionally, OOP can increase the reusability of software, as developers can use existing objects to develop new functionality. It is widely used in modern programming languages such as Java, Python, and Ruby, among others.&lt;/p&gt;
-&lt;p&gt;The four core concepts of OOP are:&lt;/p&gt;
+&lt;h3 id=&#34;the-core-concepts-of-oop-are&#34;&gt;The core concepts of OOP are:&lt;/h3&gt;
+&lt;h4 id=&#34;1-object-oriented-programming-three-features&#34;&gt;1. Object-oriented programming three features&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Abstraction: Abstraction is the process of representing complex real-world objects as simpler classes or interfaces, which hides the implementation details and only exposes the object&amp;rsquo;s functionality and properties. By abstracting objects, the programmer can simplify the system&amp;rsquo;s complexity, making it easier to understand and manage.&lt;/p&gt;
-&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Encapsulation: Encapsulation is the technique of hiding the internal details of an object and only exposing the public interface. It groups related properties and methods into a class, and separates them from other classes&amp;rsquo; properties and methods. Encapsulation prevents external code from accessing and modifying an object&amp;rsquo;s properties and methods improperly, improving code security and reliability.&lt;/p&gt;
 &lt;/li&gt;
@@ -1411,16 +1409,31 @@ In OOP, objects in software are made up of data properties and methods that oper
 &lt;p&gt;Polymorphism: Polymorphism refers to the ability of objects to take on multiple forms, where the same operation can behave differently on different objects. Polymorphism allows for flexibility and extensibility, improving code readability, maintainability, and reusability. Polymorphism can be achieved through method overloading, method overriding, and interfaces.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;2-object-oriented-programming-two-abstractions&#34;&gt;2. Object-oriented programming two abstractions:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Abstract: an abstract class cannot be directly instantiated, but can be inherited, and can contain both abstract and implemented methods.
+Interface: a definition of a set of methods that a class must implement to fulfill the contract.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Abstraction: Abstraction is the process of representing complex real-world objects as simpler classes or interfaces, which hides the implementation details and only exposes the object&amp;rsquo;s functionality and properties. By abstracting objects, the programmer can simplify the system&amp;rsquo;s complexity, making it easier to understand and manage.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;3-good-object-oriented-programming-principles-solid&#34;&gt;3. Good object-oriented programming principles: SOLID&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;S (Single Responsibility Principle): a class should have only one reason to change.&lt;/li&gt;
+&lt;li&gt;O (Open/Closed Principle): software entities should be open for extension but closed for modification.&lt;/li&gt;
+&lt;li&gt;L (Liskov Substitution Principle): objects of a superclass shall be replaceable with objects of its subclasses.&lt;/li&gt;
+&lt;li&gt;I (Interface Segregation Principle): a client should not be forced to depend on methods it does not use.&lt;/li&gt;
+&lt;li&gt;D (Dependency Inversion Principle): high-level modules should not depend on low-level modules, both should depend on abstractions.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;These concepts are interrelated and are usually used together to implement complex code. OOP can help programmers write code that is easy to understand, reuse, and maintain, while improving the quality and productivity of the code.&lt;/p&gt;
+&lt;h2 id=&#34;什麼是物件導向設計object-oriented-programming&#34;&gt;什麼是物件導向設計(Object Oriented Programming)&lt;/h2&gt;
 &lt;p&gt;Object Oriented Programming (OOP) 是一種軟體開發的方法，它將現實世界中的物件模型化，以物件之間的互動方式來建立軟體。&lt;/p&gt;
 &lt;p&gt;在 OOP 中，軟體中的物件由資料屬性和操作資料的方法所構成。這些物件可以被看做軟體中的實體，它們能夠合作來完成特定的任務。例如，一個銀行帳戶物件可以有屬性如餘額、帳戶號碼等，而方法則可以是存款、提款等。&lt;/p&gt;
 &lt;p&gt;OOP 的基本概念是「類別」和「物件」。類別是用來描述物件的藍圖或模板，而物件是透過這些類別來建立的實體。在 OOP 中，物件能夠透過繼承和多型等概念來增加彈性，讓程式碼更有組織性、可重複使用性和易於維護性。&lt;/p&gt;
 &lt;p&gt;OOP 提供了一種將複雜程式拆解成更小、更易管理的部分的方式。透過將程式拆解成類別和物件，我們可以創建出更容易理解、修改和維護的程式碼。此外，物件導向程式設計也可以增加軟體的可重用性，因為開發者可以使用現有的物件來開發新的功能。它廣泛地應用於現代程式語言，如 Java、Python 和 Ruby 等。&lt;/p&gt;
-&lt;p&gt;OOP的核心概念包括以下四個：&lt;/p&gt;
+&lt;h3 id=&#34;oop的核心概念包括&#34;&gt;OOP的核心概念包括：&lt;/h3&gt;
+&lt;h4 id=&#34;1-物件導向三特性&#34;&gt;1. 物件導向三特性：&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Abstraction（抽象化）：抽象化是將具體事物抽象成一個類別或介面，使程式設計師可以隱藏實現細節，只關注物件的功能和特性。透過抽象化，程式設計師可以簡化系統的複雜性，使其易於理解和管理。&lt;/p&gt;
-&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Encapsulation（封裝）：封裝是一種隱藏物件細節的技術。它將相關的屬性和方法組合起來形成一個類別，同時將其與其他類別的屬性和方法分開。封裝可以防止外部代碼不當地訪問和修改物件的屬性和方法，從而提高代碼的安全性和可靠性。&lt;/p&gt;
 &lt;/li&gt;
@@ -1432,6 +1445,22 @@ In OOP, objects in software are made up of data properties and methods that oper
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;透過這些核心概念的運用，程式設計師可以寫出易讀、易維護、可重複利用、彈性及可擴充的程式。&lt;/p&gt;
+&lt;h4 id=&#34;2-物件導向兩抽象-abstraction&#34;&gt;2. 物件導向兩抽象 (Abstraction)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Abstract：抽象類別是不能直接實例化的類別，只能被繼承，且可以包含抽象方法和實作方法。&lt;/li&gt;
+&lt;li&gt;Interface：介面是一個定義了一系列方法的抽象型別，實現這個介面的類別必須實現所有定義的方法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;抽象化是將具體事物抽象成一個類別或介面，使程式設計師可以隱藏實現細節，只關注物件的功能和特性。透過抽象化，程式設計師可以簡化系統的複雜性，使其易於理解和管理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;3-好的物件導向原則solid&#34;&gt;3. 好的物件導向原則：SOLID&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;S (Single Responsibility Principle)：單一職責原則，一個類別只負責一個職責。&lt;/li&gt;
+&lt;li&gt;O (Open/Closed Principle)：開放封閉原則，對擴展開放，對修改封閉。&lt;/li&gt;
+&lt;li&gt;L (Liskov Substitution Principle)：里氏替換原則，衍生類別必須能夠替換基類別。&lt;/li&gt;
+&lt;li&gt;I (Interface Segregation Principle)：介面隔離原則，介面應該是客戶端所需要的最小介面。&lt;/li&gt;
+&lt;li&gt;D (Dependency Inversion Principle)：依賴反轉原則，高層模組不應該依賴低層模組，而是依賴抽象介面。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;example-1&#34;&gt;Example 1&lt;/h3&gt;
 &lt;p&gt;下面是一個簡單的例子，展示如何使用 Ruby 的物件導向程式設計來建立一個簡單的人物件：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
