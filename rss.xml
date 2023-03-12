@@ -21,10 +21,48 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Fri, 10 Mar 2023 22:21:46 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 12 Mar 2023 09:49:37 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>MVC</title>
+                <link>https://example.com/posts/mvc/</link>
+                <guid isPermaLink="true">https://example.com/posts/mvc/</guid>
+                <pubDate>Sun, 12 Mar 2023 09:46:37 &#43;0000</pubDate>
+                
+                    <author>ysiad926@gmail.com (Daisy)</author>
+                
+                
+                
+                    <description>&lt;h2 id=&#34;what-is-mvc&#34;&gt;What is MVC&lt;/h2&gt;
+&lt;p&gt;MVC stands for Model-View-Controller, which is a software design pattern used in developing applications, particularly in web application development.&lt;/p&gt;
+&lt;p&gt;In the MVC pattern, the application is divided into three main parts:&lt;/p&gt;
+&lt;p&gt;Model: represents the core business logic of the application, such as databases, files, APIs, etc. The Model is typically used for accessing, modifying, and querying data.&lt;/p&gt;
+&lt;p&gt;View: represents the user interface of the application, responsible for presenting data to the user. The View typically only concerns itself with data presentation and does not involve business logic.&lt;/p&gt;
+&lt;p&gt;Controller: represents the control logic of the application, responsible for receiving user input and calling the Model and View accordingly. The Controller typically includes the application&amp;rsquo;s logic processing and routing.&lt;/p&gt;
+&lt;p&gt;Using the MVC pattern can help keep different parts of an application separate, reduce coupling, and improve maintainability and scalability.&lt;/p&gt;
+&lt;h2 id=&#34;mvc-是什麼&#34;&gt;MVC 是什麼&lt;/h2&gt;
+&lt;p&gt;MVC 代表 Model-View-Controller，是一種軟體設計模式，用於開發應用程式，特別是在Web應用程式開發中非常常見。&lt;/p&gt;
+&lt;p&gt;在MVC模式中，應用程式被分為三個主要部分：&lt;/p&gt;
+&lt;p&gt;Model（模型）：表示應用程式的核心業務邏輯，例如資料庫、文件、API等。Model 通常用於存取、修改、查詢資料。&lt;/p&gt;
+&lt;p&gt;View（視圖）：表示應用程式的使用者介面，負責呈現資料給使用者。View 通常只負責呈現資料，而不涉及業務邏輯。&lt;/p&gt;
+&lt;p&gt;Controller（控制器）：表示應用程式的控制邏輯，負責接收使用者的輸入，並相應地調用 Model 和 View。Controller 通常包含了應用程式的邏輯處理和路由。&lt;/p&gt;
+&lt;p&gt;使用MVC模式可以讓應用程式的不同部分之間保持獨立，減少耦合，提高應用程式的可維護性和擴展性。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>SOLID</title>
