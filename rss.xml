@@ -21,13 +21,13 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Tue, 14 Mar 2023 22:18:01 &#43;0000</lastBuildDate>
+        <lastBuildDate>Wed, 15 Mar 2023 21:26:45 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
         
             <item>
-                <title>Solid_example</title>
+                <title>SOLID Example</title>
                 <link>https://example.com/posts/solid_example/</link>
                 <guid isPermaLink="true">https://example.com/posts/solid_example/</guid>
                 <pubDate>Tue, 14 Mar 2023 22:12:24 &#43;0000</pubDate>
@@ -40,6 +40,7 @@
 &lt;ol&gt;
 &lt;li&gt;Single Responsibility Principle (SRP)：單一職責原則&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;The Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here&amp;rsquo;s an example:&lt;/p&gt;
 &lt;p&gt;SRP 建議每個類別或模組應該只負責單一的職責。以下是一個範例：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -79,7 +80,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;上面的代碼違反了 SRP，因為 Customer 類別負責了兩個職責，即保存顧客信息到數據庫和發送電子郵件給顧客。以下是符合 SRP 的修改：&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;The above code violates SRP because the Customer class has two responsibilities - saving customer information to the database and sending an email to the customer. Here&amp;rsquo;s an example of how we can modify the code to adhere to SRP:&lt;/p&gt;
+&lt;p&gt;上面的代碼違反了 SRP，因為 Customer 類別負責了兩個職責，即保存顧客信息到數據庫和發送電子郵件給顧客。以下是符合 SRP 的修改：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -121,8 +123,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;examples-ocp&#34;&gt;Examples (OCP)&lt;/h2&gt;
-&lt;p&gt;Suppose we have a Payment class that handles payment operations. The class currently supports two payment methods:
-假設我們有一個 Payment 類別，它用於處理付款操作。該類別目前支持兩種付款方式：&lt;/p&gt;
+&lt;p&gt;Suppose we have a Payment class that handles payment operations. The class currently supports two payment methods:&lt;/p&gt;
+&lt;p&gt;假設我們有一個 Payment 類別，它用於處理付款操作。該類別目前支持兩種付款方式：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
