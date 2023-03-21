@@ -30,7 +30,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="Daisy" /><meta name="description" content="Examples (SRP)  Single Responsibility Principle (SRP)：單一職責原則  The Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here’s an example:
+    <meta name="author" content="Daisy" /><meta name="description" content="Example 1 (SRP) Single Responsibility Principle (SRP)：單一職責原則
+The Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here’s an example:
 SRP 建議每個類別或模組應該只負責單一的職責。以下是一個範例：
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  # 不符合 SRP 的範例 class Customer def initialize(name, email, phone) @name = name @email = email @phone = phone end def save_to_db # 保存顧客信息到數據庫 end def send_email # 發送電子郵件給顧客 end end   The above code violates SRP because the Customer class has two responsibilities - saving customer information to the database and sending an email to the customer." />
 
@@ -59,13 +60,13 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-03-14T22:12:24+00:00",
-        "dateModified": "2023-03-18T14:51:36+00:00",
+        "dateModified": "2023-03-21T21:39:46+00:00",
         "url": "https://example.com/posts/solid_example/",
         "headline": "SOLID Example",
-        "description": "Examples (SRP)  Single Responsibility Principle (SRP)：單一職責原則  The Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here’s an example:\nSRP 建議每個類別或模組應該只負責單一的職責。以下是一個範例：\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  # 不符合 SRP 的範例 class Customer def initialize(name, email, phone) @name = name @email = email @phone = phone end def save_to_db # 保存顧客信息到數據庫 end def send_email # 發送電子郵件給顧客 end end   The above code violates SRP because the Customer class has two responsibilities - saving customer information to the database and sending an email to the customer.",
+        "description": "Example 1 (SRP) Single Responsibility Principle (SRP)：單一職責原則\nThe Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here’s an example:\nSRP 建議每個類別或模組應該只負責單一的職責。以下是一個範例：\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  # 不符合 SRP 的範例 class Customer def initialize(name, email, phone) @name = name @email = email @phone = phone end def save_to_db # 保存顧客信息到數據庫 end def send_email # 發送電子郵件給顧客 end end   The above code violates SRP because the Customer class has two responsibilities - saving customer information to the database and sending an email to the customer.",
         "inLanguage" : "en",
         "articleSection": "posts",
-        "wordCount":  715 ,
+        "wordCount":  1119 ,
         "image": "https://example.com/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -103,7 +104,8 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 
 
 <meta property="og:title" content="SOLID Example" />
-<meta property="og:description" content="Examples (SRP)  Single Responsibility Principle (SRP)：單一職責原則  The Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here’s an example:
+<meta property="og:description" content="Example 1 (SRP) Single Responsibility Principle (SRP)：單一職責原則
+The Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here’s an example:
 SRP 建議每個類別或模組應該只負責單一的職責。以下是一個範例：
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  # 不符合 SRP 的範例 class Customer def initialize(name, email, phone) @name = name @email = email @phone = phone end def save_to_db # 保存顧客信息到數據庫 end def send_email # 發送電子郵件給顧客 end end   The above code violates SRP because the Customer class has two responsibilities - saving customer information to the database and sending an email to the customer." />
 <meta property="og:url" content="https://example.com/posts/solid_example/" />
@@ -111,7 +113,7 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://example.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-03-14T22:12:24&#43;00:00" />
-    <meta property="article:modified_time" content="2023-03-18T14:51:36&#43;00:00" />
+    <meta property="article:modified_time" content="2023-03-21T21:39:46&#43;00:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -246,7 +248,7 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
     
     
         
-        <time datetime="2023-03-18T14:51:36&#43;00:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2023.3.18</time>
+        <time datetime="2023-03-21T21:39:46&#43;00:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2023.3.21</time>
     
     
     
@@ -258,11 +260,11 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;715</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1119</span>
     
     
         
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;4&nbsp;mins</span>
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;6&nbsp;mins</span>
     
     
     
@@ -271,11 +273,9 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
             
 
             <div class="post-body e-content">
-                <h2 id="examples-srp"><a href="#examples-srp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Examples (SRP)</h2>
-<ol>
-<li>Single Responsibility Principle (SRP)：單一職責原則</li>
-</ol>
-<p style="text-indent:0"><span class="drop-cap">T</span>he Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here&rsquo;s an example:</p>
+                <h2 id="example-1-srp"><a href="#example-1-srp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Example 1 (SRP)</h2>
+<p style="text-indent:0"><span class="drop-cap">S</span>ingle Responsibility Principle (SRP)：單一職責原則</p>
+<p>The Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here&rsquo;s an example:</p>
 <p>SRP 建議每個類別或模組應該只負責單一的職責。以下是一個範例：</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -357,7 +357,7 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 </span></span><span class="line"><span class="cl"><span class="k">end</span>
 </span></span></code></pre></td></tr></table></div>
 </div>
-</div><h2 id="examples-ocp"><a href="#examples-ocp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Examples (OCP)</h2>
+</div><h2 id="example-2-ocp"><a href="#example-2-ocp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Example 2 (OCP)</h2>
 <p>Suppose we have a Payment class that handles payment operations. The class currently supports two payment methods:</p>
 <p>假設我們有一個 Payment 類別，它用於處理付款操作。該類別目前支持兩種付款方式：</p>
 <div class="highlight"><div class="chroma">
@@ -486,7 +486,7 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 </div>
 </div><p>This implementation complies with the OCP, because we can add new payment methods without modifying the existing code.</p>
 <p>這種實現方式符合 OCP 的原則，因為我們可以添加新的付款方式而不需要修改現有的代碼。</p>
-<h2 id="examples-lsp"><a href="#examples-lsp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Examples (LSP)</h2>
+<h2 id="example-3-lsp"><a href="#example-3-lsp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Example 3 (LSP)</h2>
 <p>里氏替換原則 (Liskov Substitution Principle, LSP) 是面向對象設計中的一個基本原則，它指出子類別必須能夠替換其父類別，而不會對程式的正確性造成任何影響。</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -575,6 +575,131 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 </div>
 </div><p>在這個例子中，我們定義了一個 Animal 父類別和一個 Dog 子類別。Animal 父類別定義了一個 speak 方法，而 Dog 子類別沒有修改或覆寫 Animal 中的 speak 方法，直接繼承了父類別中的方法。</p>
 <p>在 do_something 方法中，我們傳入一個 Animal 物件（這裡是 Dog 物件），然後調用它的 speak 方法。由於 Dog 繼承自 Animal，因此它也擁有一個 speak 方法，可以替代 Animal 物件的位置。這樣就符合了 LSP 的要求：父類別和子類別可以互相替換使用，而不會對系統的正確性造成影響。</p>
+<h2 id="example-4-isp"><a href="#example-4-isp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Example 4 (ISP)</h2>
+<p>The Interface Segregation Principle (ISP) states that a large interface should be split into smaller ones, and each class should only implement the interfaces that it needs. This reduces unnecessary dependencies and improves code readability, maintainability, and extensibility.</p>
+<p>In Ruby, we can implement the ISP using modules. Here&rsquo;s a simple example:</p>
+<p>介面隔離原則（Interface Segregation Principle, ISP）是指應該將一個大型的介面拆分成多個小的介面，並且每個類別只實現它需要的介面。這樣可以減少不必要的依賴關係，從而提高代碼的可讀性、可維護性和可擴展性。</p>
+<p>在 Ruby 中，我們可以通過模塊（Module）來實現介面隔離原則。以下是一個簡單的例子：</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">Swimable</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">swim</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;</span><span class="si">#{</span><span class="nb">self</span><span class="o">.</span><span class="n">class</span><span class="si">}</span><span class="s2"> is swimming&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">Flyable</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">fly</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;</span><span class="si">#{</span><span class="nb">self</span><span class="o">.</span><span class="n">class</span><span class="si">}</span><span class="s2"> is flying&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Bird</span>
+</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">Flyable</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">eat</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;</span><span class="si">#{</span><span class="nb">self</span><span class="o">.</span><span class="n">class</span><span class="si">}</span><span class="s2"> is eating&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Duck</span> <span class="o">&lt;</span> <span class="no">Bird</span>
+</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">Swimable</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">quack</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;Quack!&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">duck1</span> <span class="o">=</span> <span class="no">Duck</span><span class="o">.</span><span class="n">new</span>
+</span></span><span class="line"><span class="cl"><span class="n">duck1</span><span class="o">.</span><span class="n">quack</span> <span class="c1"># Quack!</span>
+</span></span><span class="line"><span class="cl"><span class="n">duck1</span><span class="o">.</span><span class="n">eat</span> <span class="c1"># Duck is eating</span>
+</span></span><span class="line"><span class="cl"><span class="n">duck1</span><span class="o">.</span><span class="n">fly</span> <span class="c1"># Duck is flying</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>In the example above, we defined two modules: Swimable and Flyable, which define the swim and fly methods, respectively. Then, we defined a Bird class and included the Flyable module, because birds can fly. We also defined a Duck class that inherits from Bird and includes the Swimable module, because ducks can swim.</p>
+<p>The benefit of this design is that each class only implements the interfaces that it needs, reducing dependencies between classes. For example, if we need a bird that cannot fly, we can simply derive a new class from Bird without modifying the existing code.</p>
+<p>在上面的例子中，我們定義了兩個模塊：Swimable 和 Flyable，它們分別定義了 swim 和 fly 方法。然後我們定義了一個 Bird 類別，並包含了 Flyable 模塊，因為鳥類能夠飛行。接著，我們定義了一個 Duck 類別，它繼承自 Bird 類別，並包含了 Swimable 模塊，因為鴨子能夠游泳。</p>
+<p>這樣設計的好處是，每個類別只實現了自己需要的介面，從而減少了類別之間的依賴關係。例如，如果我們需要一個不能飛行的鳥類，我們只需要從 Bird 類別派生一個新類別，而不需要修改原有的代碼。</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">NonFlyingBird</span> <span class="o">&lt;</span> <span class="no">Bird</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">fly</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;</span><span class="si">#{</span><span class="nb">self</span><span class="o">.</span><span class="n">class</span><span class="si">}</span><span class="s2"> cannot fly&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Penguin</span> <span class="o">&lt;</span> <span class="no">NonFlyingBird</span>
+</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">Swimable</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">waddle</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;Waddle waddle&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">penguin1</span> <span class="o">=</span> <span class="no">Penguin</span><span class="o">.</span><span class="n">new</span>
+</span></span><span class="line"><span class="cl"><span class="n">penguin1</span><span class="o">.</span><span class="n">waddle</span> <span class="c1"># waddle waddle</span>
+</span></span><span class="line"><span class="cl"><span class="n">penguin1</span><span class="o">.</span><span class="n">eat</span> <span class="c1"># Penguin is eating</span>
+</span></span><span class="line"><span class="cl"><span class="n">penguin1</span><span class="o">.</span><span class="n">fly</span> <span class="c1"># Penguin cannot fly</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>In this code, we define a new class called NonFlyingBird that inherits from the Bird class. However, we override the fly method to output a message saying that the bird cannot fly.</p>
+<p>We can now use this new class to define non-flying birds without modifying the original Bird class or the Flyable module.</p>
+<p>在上面的代碼中，我們定義了一個 NonFlyingBird 類別，它繼承自 Bird 類別，但是重寫了 fly 方法，讓它輸出一個不能飛行的信息。然後，我們定義了一個 Penguin 類別，它繼承自 NonFlyingBird 類別，並包含了 Swimable 模塊，因為企鵝可以游泳。Penguin 類別也定義了自己的方法 waddle。</p>
+<p>現在，如果我們需要一個不能飛行的鳥類，我們只需要使用 NonFlyingBird 類別即可，不需要修改原有的 Bird 類別或 Flyable 模塊。</p>
 
             </div>
 
@@ -587,9 +712,9 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2023-03-18 14:51:36 GMT" style="cursor:help">
+        <span title="Updated @ 2023-03-21 21:39:46 GMT" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-03-18</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-03-18</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-03-21</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-03-21</text></g></svg>
         </span></div>
 
 
