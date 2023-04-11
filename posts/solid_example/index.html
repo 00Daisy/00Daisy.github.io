@@ -60,13 +60,13 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-03-14T22:12:24+00:00",
-        "dateModified": "2023-03-21T21:39:46+00:00",
+        "dateModified": "2023-04-11T22:04:37+01:00",
         "url": "https://example.com/posts/solid_example/",
         "headline": "SOLID Example",
         "description": "Example 1 (SRP) Single Responsibility Principle (SRP)：單一職責原則\nThe Single Responsibility Principle (SRP) suggests that each class or module should have only one responsibility. Here’s an example:\nSRP 建議每個類別或模組應該只負責單一的職責。以下是一個範例：\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  # 不符合 SRP 的範例 class Customer def initialize(name, email, phone) @name = name @email = email @phone = phone end def save_to_db # 保存顧客信息到數據庫 end def send_email # 發送電子郵件給顧客 end end   The above code violates SRP because the Customer class has two responsibilities - saving customer information to the database and sending an email to the customer.",
         "inLanguage" : "en",
         "articleSection": "posts",
-        "wordCount":  1119 ,
+        "wordCount":  1680 ,
         "image": "https://example.com/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -113,7 +113,7 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://example.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-03-14T22:12:24&#43;00:00" />
-    <meta property="article:modified_time" content="2023-03-21T21:39:46&#43;00:00" />
+    <meta property="article:modified_time" content="2023-04-11T22:04:37&#43;01:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -248,7 +248,7 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
     
     
         
-        <time datetime="2023-03-21T21:39:46&#43;00:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2023.3.21</time>
+        <time datetime="2023-04-11T22:04:37&#43;01:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2023.4.11</time>
     
     
     
@@ -260,11 +260,11 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1119</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1680</span>
     
     
         
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;6&nbsp;mins</span>
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;8&nbsp;mins</span>
     
     
     
@@ -700,6 +700,123 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 <p>We can now use this new class to define non-flying birds without modifying the original Bird class or the Flyable module.</p>
 <p>在上面的代碼中，我們定義了一個 NonFlyingBird 類別，它繼承自 Bird 類別，但是重寫了 fly 方法，讓它輸出一個不能飛行的信息。然後，我們定義了一個 Penguin 類別，它繼承自 NonFlyingBird 類別，並包含了 Swimable 模塊，因為企鵝可以游泳。Penguin 類別也定義了自己的方法 waddle。</p>
 <p>現在，如果我們需要一個不能飛行的鳥類，我們只需要使用 NonFlyingBird 類別即可，不需要修改原有的 Bird 類別或 Flyable 模塊。</p>
+<h2 id="example-5-dip"><a href="#example-5-dip" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Example 5 (DIP)</h2>
+<p>The Dependency Inversion Principle (DIP) is one of the SOLID design principles. It states that high-level modules should not depend on low-level modules, but both should depend on abstractions. By relying on abstractions, the system&rsquo;s coupling is reduced, and it becomes easier to perform unit testing and module replacement.</p>
+<p>Here&rsquo;s an example of Ruby code that violates the Dependency Inversion Principle:</p>
+<p>依賴反轉原則（Dependency Inversion Principle, DIP）是 SOLID 設計原則中的一個，主要原則是指高層模組不應該依賴於低層模組，而兩者都應該依賴於抽象介面，由抽象介面來統一管理。這樣可以達到降低系統耦合度的目的，並且方便進行單元測試和模組替換。</p>
+<p>以下是一個不符合依賴反轉原則的 Ruby 範例：</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Car</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">initialize</span>
+</span></span><span class="line"><span class="cl">    <span class="vi">@engine</span> <span class="o">=</span> <span class="no">Engine</span><span class="o">.</span><span class="n">new</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">start</span>
+</span></span><span class="line"><span class="cl">    <span class="vi">@engine</span><span class="o">.</span><span class="n">start</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Engine</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">start</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;Engine started&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>In this example, the Car class directly depends on the Engine class, which is a low-level module. This violates the Dependency Inversion Principle.</p>
+<p>In Ruby, implementing the Dependency Inversion Principle can be achieved through Duck Typing since Ruby is a dynamically typed language. If a class implements a method, it can be considered as implementing an interface.</p>
+<p>Therefore, in Ruby, it is usually unnecessary to create an interface. Instead, we only need to ensure that the lower-level module implements the methods that the higher-level module needs. We can use modules or Ruby&rsquo;s multiple inheritance feature to make the lower-level module implement the required methods of the higher-level module.</p>
+<p>Here&rsquo;s an example of using a module to implement the Dependency Inversion Principle in Ruby:
+在這個例子中，Car 類別直接依賴於 Engine 類別，而 Engine 類別也是低層模組，這樣就違反了依賴反轉原則。</p>
+<p>在 Ruby 中，實作依賴反轉原則可以使用 Duck Typing，因為 Ruby 是一個動態類型的語言。如果一個類別實現了一個方法，它就可以被視為實現了一個接口。</p>
+<p>因此，在 Ruby 中，通常不需要建立一個介面，只要確定低層模組實現了高層模組需要使用的方法即可。我們可以使用模組或者 Ruby 的多重繼承功能，讓低層模組實現高層模組需要使用的方法。</p>
+<p>以下是一個使用模組實現依賴反轉原則的 Ruby 範例：</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">EngineInterface</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">start</span>
+</span></span><span class="line"><span class="cl">    <span class="k">raise</span> <span class="no">NotImplementedError</span><span class="p">,</span> <span class="s2">&#34;</span><span class="si">#{</span><span class="nb">self</span><span class="o">.</span><span class="n">class</span><span class="si">}</span><span class="s2">#</span><span class="si">#{</span><span class="n">__method__</span><span class="si">}</span><span class="s2"> must be implemented&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Car</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">engine</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="vi">@engine</span> <span class="o">=</span> <span class="n">engine</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">start</span>
+</span></span><span class="line"><span class="cl">    <span class="vi">@engine</span><span class="o">.</span><span class="n">start</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Engine</span>
+</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">EngineInterface</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">start</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">puts</span> <span class="s2">&#34;Engine started&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">engine</span> <span class="o">=</span> <span class="no">Engine</span><span class="o">.</span><span class="n">new</span>
+</span></span><span class="line"><span class="cl"><span class="n">car</span> <span class="o">=</span> <span class="no">Car</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">engine</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">car</span><span class="o">.</span><span class="n">start</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>In this example, we define a module, EngineInterface, which Engine class implements so that it can implement the methods that Car needs to use. The Car class accepts an argument engine, which can be any class that implements the EngineInterface module. This allows the Car class to depend on an abstract interface rather than the lower-level Engine class itself.</p>
+<p>In Ruby, as long as a specific method exists in the object being called, even if the method is not explicitly defined as an interface, Ruby can still find and call that method.</p>
+<p>However, this approach is not recommended. If you want to modify the name or parameters of the start method in the Engine class, or if you want other classes to implement the EngineInterface module, you may need to modify the Car class. If you create an explicit interface, such modifications can be simpler because you only need to make the Engine class implement the new interface, rather than modifying the Car class.</p>
+<p>In summary, even though Ruby does not have explicit interfaces like some other languages, using abstract interfaces to implement the Dependency Inversion Principle is still a good practice because it can make the system more flexible and maintainable.</p>
+<p>在這個例子中，我們定義了一個模組 EngineInterface，讓 Engine 類別實現這個模組，這樣 Engine 就能夠實現 Car 需要使用的方法。Car 類別接收一個引數 engine，這個引數可以是任何實現了 EngineInterface 模組的類別。這樣就讓 Car 類別依賴於一個抽象介面，而不是低層模組 Engine 類別本身。</p>
+<p>在 Ruby 中，對於某個特定的方法，只要該方法存在於被呼叫的物件中，即使該方法沒有被明確地定義為介面，Ruby 仍然可以找到該方法並呼叫它。</p>
+<p>然而，這種做法並不推薦。如果您想要在 Engine 類別中修改 start 方法的名稱或者參數，或者您想要讓其他類別實現 EngineInterface 模組，您可能需要對 Car 類別進行修改。如果您建立了一個明確的介面，這樣的修改就可以更加簡單，因為您只需要讓 Engine 類別實現新的介面即可，而不需要對 Car 類別進行修改。</p>
+<p>總之，即使在 Ruby 中沒有像其他語言中一樣明確的介面，使用抽象介面來實現依賴反轉原則仍然是一種好的做法，因為這樣可以讓系統更具彈性和可維護性。</p>
 
             </div>
 
@@ -712,9 +829,9 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2023-03-21 21:39:46 GMT" style="cursor:help">
+        <span title="Updated @ 2023-04-11 22:04:37 BST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-03-21</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-03-21</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2023-04-11</text><text x="915" y="140" textLength="650" transform="scale(.1)">2023-04-11</text></g></svg>
         </span></div>
 
 
