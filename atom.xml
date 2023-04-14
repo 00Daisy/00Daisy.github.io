@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-04-14T22:15:40&#43;01:00</updated>
+    <updated>2023-04-14T22:22:13&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,74 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">Static and Dynamic languages</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/static_and_dynamic_languages/" />
+            <id>https://example.com/posts/static_and_dynamic_languages/</id>
+            <updated>2023-04-14T22:21:52&#43;01:00</updated>
+            <published>2023-04-14T22:16:41&#43;01:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">Static and Dynamic languages Static and dynamic languages are two different ways of classifying programming languages. Here are their representatives and respective advantages and disadvantages:
+Representatives of static languages: Java, C++, C# Static languages require variables, functions, and objects to have their type determined at compile time, and perform type checks on these types at runtime.</summary>
+            
+                <content type="html">&lt;h1 id=&#34;static-and-dynamic-languages&#34;&gt;Static and Dynamic languages&lt;/h1&gt;
+&lt;p&gt;Static and dynamic languages are two different ways of classifying programming languages. Here are their representatives and respective advantages and disadvantages:&lt;/p&gt;
+&lt;h2 id=&#34;representatives-of-static-languages-java-c-c&#34;&gt;Representatives of static languages: Java, C++, C#&lt;/h2&gt;
+&lt;p&gt;Static languages require variables, functions, and objects to have their type determined at compile time, and perform type checks on these types at runtime. This approach can catch some common errors at compile time, thereby increasing code reliability and security.&lt;/p&gt;
+&lt;h3 id=&#34;advantages&#34;&gt;Advantages:&lt;/h3&gt;
+&lt;p&gt;Common errors can be caught at compile time, increasing code reliability and security.
+More stringent type checks can reduce the chances of code errors.
+Better code optimization can be performed, improving code execution efficiency.&lt;/p&gt;
+&lt;h3 id=&#34;disadvantages&#34;&gt;Disadvantages:&lt;/h3&gt;
+&lt;p&gt;Type determination of variables, functions, and objects must be performed at compile time, which may increase development costs and time.
+Code may become more verbose, requiring more type declarations.&lt;/p&gt;
+&lt;h2 id=&#34;representatives-of-dynamic-languages-python-ruby-javascript&#34;&gt;Representatives of dynamic languages: Python, Ruby, JavaScript&lt;/h2&gt;
+&lt;p&gt;Dynamic languages do not require variables, functions, and objects to have their type determined at compile time, but rather dynamically determine these types at runtime. This approach makes code more flexible and easier to develop.&lt;/p&gt;
+&lt;h3 id=&#34;advantages-1&#34;&gt;Advantages:&lt;/h3&gt;
+&lt;p&gt;Code can be more flexible and easier to develop.
+Code can be more concise, without requiring large amounts of type declarations.
+Testing and debugging can be easier.&lt;/p&gt;
+&lt;h3 id=&#34;disadvantages-1&#34;&gt;Disadvantages:&lt;/h3&gt;
+&lt;p&gt;Because strict type checking is not performed, some errors can be more easily introduced, which may only be discovered at runtime.
+Execution efficiency may be lower, as type checking and optimization are not performed.&lt;/p&gt;
+&lt;h1 id=&#34;靜態語言和動態語言&#34;&gt;靜態語言和動態語言&lt;/h1&gt;
+&lt;p&gt;靜態語言和動態語言是兩種不同的程式語言分類方式，以下是它們的代表以及各自優缺點：&lt;/p&gt;
+&lt;h2 id=&#34;靜態語言的代表javacc&#34;&gt;靜態語言的代表：Java、C++、C#&lt;/h2&gt;
+&lt;p&gt;靜態語言需要在編譯時期就確定變數、函數和物件等的型別，並在運行時期執行這些型別的檢查。這種方式可以在編譯時期捕捉到一些常見的錯誤，從而提高代碼的可靠性和安全性。&lt;/p&gt;
+&lt;h3 id=&#34;優點&#34;&gt;優點：&lt;/h3&gt;
+&lt;p&gt;可以在編譯時期捕捉到一些常見的錯誤，從而提高代碼的可靠性和安全性。
+可以對代碼進行更嚴格的型別檢查，從而減少代碼出錯的機會。
+可以進行更好的代碼優化，提高代碼執行效率。&lt;/p&gt;
+&lt;h3 id=&#34;缺點&#34;&gt;缺點：&lt;/h3&gt;
+&lt;p&gt;需要在編譯時期就確定變數、函數和物件等的型別，這可能會增加一些開發成本和時間。
+代碼可能會變得較為冗長，需要添加更多的型別聲明。&lt;/p&gt;
+&lt;h2 id=&#34;動態語言的代表pythonrubyjavascript&#34;&gt;動態語言的代表：Python、Ruby、JavaScript&lt;/h2&gt;
+&lt;p&gt;動態語言不需要在編譯時期確定變數、函數和物件等的型別，而是在運行時期動態地確定這些型別。這種方式可以讓代碼更加靈活和易於開發。&lt;/p&gt;
+&lt;h3 id=&#34;優點-1&#34;&gt;優點：&lt;/h3&gt;
+&lt;p&gt;可以讓代碼更加靈活和易於開發。
+代碼可以更為簡潔，不需要添加大量的型別聲明。
+可以更加容易地進行測試和調試。&lt;/p&gt;
+&lt;h3 id=&#34;缺點-1&#34;&gt;缺點：&lt;/h3&gt;
+&lt;p&gt;由於不進行嚴格的型別檢查，容易出現一些錯誤，需要在運行時期才能發現。
+由於不進行型別檢查和優化，執行效率可能較低。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">JavaScript vs TypeScript</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/typescript_vs_javascript/" />
