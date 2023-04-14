@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-04-11T22:04:50&#43;01:00</updated>
+    <updated>2023-04-14T22:15:40&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,70 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">JavaScript vs TypeScript</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/typescript_vs_javascript/" />
+            <id>https://example.com/posts/typescript_vs_javascript/</id>
+            <updated>2023-04-14T22:15:32&#43;01:00</updated>
+            <published>2023-04-14T22:09:59&#43;01:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">The main difference between TypeScript and JavaScript is that TypeScript is a static type language, while JavaScript is a dynamic type language.
+Specifically, TypeScript has the following features:
+  Type annotations: TypeScript allows type annotations to be added to variables, parameters, functions, objects, etc.</summary>
+            
+                <content type="html">&lt;p&gt;The main difference between TypeScript and JavaScript is that TypeScript is a static type language, while JavaScript is a dynamic type language.&lt;/p&gt;
+&lt;p&gt;Specifically, TypeScript has the following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Type annotations: TypeScript allows type annotations to be added to variables, parameters, functions, objects, etc., clearly specifying the type of each value, thereby improving code readability and maintainability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type inference: TypeScript can automatically infer the type of each value based on the code context, simplifying the coding process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Static checking: TypeScript performs static checking on the code during compilation, which can catch many common errors and improve code reliability and security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support for the latest JavaScript syntax: TypeScript supports the latest JavaScript syntax, such as ES6, ES7, and ES8, allowing developers to use the latest language features to write code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, TypeScript enhances code readability, maintainability, and reliability by adding a type system and static checking, and also makes it easier for developers to use the latest JavaScript language features.&lt;/p&gt;
+&lt;p&gt;TypeScript 跟 JavaScript 最主要的差異在於 TypeScript 是一種靜態類型語言，而 JavaScript 是一種動態類型語言。&lt;/p&gt;
+&lt;p&gt;具體而言，TypeScript 具有以下特點：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;型別註解：TypeScript 可以在變數、參數、函數、物件等處添加型別註解，明確指定每個值的型別，從而提高了代碼的可讀性和可維護性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;型別推斷：TypeScript 可以根據代碼上下文自動推斷出每個值的型別，簡化了代碼的撰寫過程。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;靜態檢查：TypeScript 在編譯時對代碼進行靜態檢查，可以捕捉到許多常見的錯誤，從而提高了代碼的可靠性和安全性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;支持最新的 JavaScript 語法：TypeScript 支持最新的 ES6、ES7、ES8 等 JavaScript 語法，可以讓開發人員使用最新的語言特性來編寫代碼。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;總的來說，TypeScript 通過增加類型系統和靜態檢查等特性，可以提高代碼的可讀性、可維護性和可靠性，同時也能夠讓開發人員更加輕鬆地使用最新的 JavaScript 語言特性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://yulingyou.com/posts/static_and_dynamic_languages/&#34;&gt;Static and Dynamic languages &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">SOLID Example</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/solid_example/" />
