@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2023-04-14T22:21:52+01:00</lastmod>
+    <lastmod>2023-04-26T20:18:00+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/</loc>
-    <lastmod>2023-04-14T22:21:52+01:00</lastmod>
+    <lastmod>2023-04-26T20:18:00+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/static_and_dynamic_languages/</loc>
     <lastmod>2023-04-14T22:21:52+01:00</lastmod>
@@ -15,7 +15,7 @@
     <lastmod>2023-04-14T22:15:32+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/solid_example/</loc>
-    <lastmod>2023-04-11T22:04:37+01:00</lastmod>
+    <lastmod>2023-04-26T20:18:00+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/mvc/</loc>
     <lastmod>2023-03-12T09:49:21+00:00</lastmod>
@@ -39,7 +39,7 @@
     <lastmod>2023-02-26T15:56:39+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/oop/</loc>
-    <lastmod>2023-03-08T22:03:55+00:00</lastmod>
+    <lastmod>2023-04-26T19:45:24+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/polymorphism/</loc>
     <lastmod>2023-02-21T21:24:12+00:00</lastmod>

@@ -21,7 +21,7 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Fri, 14 Apr 2023 22:22:13 &#43;0100</lastBuildDate>
+        <lastBuildDate>Wed, 26 Apr 2023 20:22:17 &#43;0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -231,14 +231,14 @@ Execution efficiency may be lower, as type checking and optimization are not per
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;vi&#34;&gt;@phone&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;phone&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;save_to_db&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 保存顧客信息到數據庫&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;send_email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;customer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 發送電子郵件給顧客&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;EmailService&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;send_email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;customer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 發送電子郵件給顧客&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;AccountManagment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;save_to_db&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 保存顧客信息到數據庫&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -373,6 +373,7 @@ Execution efficiency may be lower, as type checking and optimization are not per
 &lt;/div&gt;&lt;p&gt;This implementation complies with the OCP, because we can add new payment methods without modifying the existing code.&lt;/p&gt;
 &lt;p&gt;這種實現方式符合 OCP 的原則，因為我們可以添加新的付款方式而不需要修改現有的代碼。&lt;/p&gt;
 &lt;h2 id=&#34;example-3-lsp&#34;&gt;Example 3 (LSP)&lt;/h2&gt;
+&lt;p&gt;The Liskov Substitution Principle (LSP) is a fundamental principle in object-oriented design. It states that a subclass must be able to replace its parent class without affecting the correctness of the program.&lt;/p&gt;
 &lt;p&gt;里氏替換原則 (Liskov Substitution Principle, LSP) 是面向對象設計中的一個基本原則，它指出子類別必須能夠替換其父類別，而不會對程式的正確性造成任何影響。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -418,7 +419,10 @@ Execution efficiency may be lower, as type checking and optimization are not per
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;do_something&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dog&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# 輸出：Dog is barking.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;在這個例子中，我們定義了一個 Animal 父類別和一個 Dog 子類別。Animal 父類別定義了一個 speak 方法，而 Dog 子類別覆寫了父類別中的 speak 方法，改寫成了自己特定的行為。&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;In this example, we have defined an Animal parent class and a Dog subclass. The Animal class defines a speak method, while the Dog subclass overrides the speak method of the parent class and writes its own specific behavior.&lt;/p&gt;
+&lt;p&gt;In the do_something method, we pass in a Dog object and then invoke its speak method. Since Dog overrides the speak method in Animal, when the speak method is called, the output is the specific behavior of Dog, not Animal. This violates the requirement of LSP: the parent class and the subclass cannot be used interchangeably because their behaviors are different.&lt;/p&gt;
+&lt;p&gt;Here is a modification that satisfies LSP:&lt;/p&gt;
+&lt;p&gt;在這個例子中，我們定義了一個 Animal 父類別和一個 Dog 子類別。Animal 父類別定義了一個 speak 方法，而 Dog 子類別覆寫了父類別中的 speak 方法，改寫成了自己特定的行為。&lt;/p&gt;
 &lt;p&gt;在 do_something 方法中，我們傳入一個 Dog 物件，然後調用它的 speak 方法。由於 Dog 覆寫了 Animal 中的 speak 方法，因此在調用 speak 方法時，輸出的是 Dog 的特定行為，而不是 Animal 的行為。這樣就違反了 LSP 的要求：父類別和子類別不可以互相替換使用，因為它們的行為不同。&lt;/p&gt;
 &lt;p&gt;以下是符合 LSP 的修改：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2362,15 +2366,19 @@ e.g. &lt;code&gt;chmod +x 檔案名&lt;/code&gt;;&lt;code&gt;chmod g+x 檔案名
 &lt;/ul&gt;
 &lt;h4 id=&#34;2-object-oriented-programming-two-abstractions&#34;&gt;2. Object-oriented programming two abstractions:&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Abstract: an abstract class cannot be directly instantiated, but can be inherited, and can contain both abstract and implemented methods.
-Interface: a definition of a set of methods that a class must implement to fulfill the contract.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Abstract: an abstract class cannot be directly instantiated, but can be inherited, and can contain both abstract and implemented methods.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interface: a definition of a set of methods that a class must implement to fulfill the contract.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Abstraction: Abstraction is the process of representing complex real-world objects as simpler classes or interfaces, which hides the implementation details and only exposes the object&amp;rsquo;s functionality and properties. By abstracting objects, the programmer can simplify the system&amp;rsquo;s complexity, making it easier to understand and manage.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;3-good-object-oriented-programming-principles-solid&#34;&gt;3. Good object-oriented programming principles: SOLID&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;S (Single Responsibility Principle): a class should have only one reason to change.&lt;/li&gt;
+&lt;li&gt;S (Single Responsibility Principle): a class should have only one function.&lt;/li&gt;
 &lt;li&gt;O (Open/Closed Principle): software entities should be open for extension but closed for modification.&lt;/li&gt;
 &lt;li&gt;L (Liskov Substitution Principle): objects of a superclass shall be replaceable with objects of its subclasses.&lt;/li&gt;
 &lt;li&gt;I (Interface Segregation Principle): a client should not be forced to depend on methods it does not use.&lt;/li&gt;

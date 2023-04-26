@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-04-14T22:22:13&#43;01:00</updated>
+    <updated>2023-04-26T20:22:17&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -152,7 +152,7 @@ Specifically, TypeScript has the following features:
             <title type="text">SOLID Example</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/solid_example/" />
             <id>https://example.com/posts/solid_example/</id>
-            <updated>2023-04-11T22:04:37&#43;01:00</updated>
+            <updated>2023-04-26T20:18:00&#43;01:00</updated>
             <published>2023-03-14T22:12:24&#43;00:00</published>
             <author>
                     <name>Daisy</name>
@@ -236,14 +236,14 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;vi&#34;&gt;@phone&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;phone&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;save_to_db&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 保存顧客信息到數據庫&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;send_email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;customer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 發送電子郵件給顧客&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;EmailService&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;send_email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;customer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 發送電子郵件給顧客&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;AccountManagment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;save_to_db&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# 保存顧客信息到數據庫&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -378,6 +378,7 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 &lt;/div&gt;&lt;p&gt;This implementation complies with the OCP, because we can add new payment methods without modifying the existing code.&lt;/p&gt;
 &lt;p&gt;這種實現方式符合 OCP 的原則，因為我們可以添加新的付款方式而不需要修改現有的代碼。&lt;/p&gt;
 &lt;h2 id=&#34;example-3-lsp&#34;&gt;Example 3 (LSP)&lt;/h2&gt;
+&lt;p&gt;The Liskov Substitution Principle (LSP) is a fundamental principle in object-oriented design. It states that a subclass must be able to replace its parent class without affecting the correctness of the program.&lt;/p&gt;
 &lt;p&gt;里氏替換原則 (Liskov Substitution Principle, LSP) 是面向對象設計中的一個基本原則，它指出子類別必須能夠替換其父類別，而不會對程式的正確性造成任何影響。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -423,7 +424,10 @@ SRP 建議每個類別或模組應該只負責單一的職責。以下是一個�
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;do_something&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dog&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# 輸出：Dog is barking.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;在這個例子中，我們定義了一個 Animal 父類別和一個 Dog 子類別。Animal 父類別定義了一個 speak 方法，而 Dog 子類別覆寫了父類別中的 speak 方法，改寫成了自己特定的行為。&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;In this example, we have defined an Animal parent class and a Dog subclass. The Animal class defines a speak method, while the Dog subclass overrides the speak method of the parent class and writes its own specific behavior.&lt;/p&gt;
+&lt;p&gt;In the do_something method, we pass in a Dog object and then invoke its speak method. Since Dog overrides the speak method in Animal, when the speak method is called, the output is the specific behavior of Dog, not Animal. This violates the requirement of LSP: the parent class and the subclass cannot be used interchangeably because their behaviors are different.&lt;/p&gt;
+&lt;p&gt;Here is a modification that satisfies LSP:&lt;/p&gt;
+&lt;p&gt;在這個例子中，我們定義了一個 Animal 父類別和一個 Dog 子類別。Animal 父類別定義了一個 speak 方法，而 Dog 子類別覆寫了父類別中的 speak 方法，改寫成了自己特定的行為。&lt;/p&gt;
 &lt;p&gt;在 do_something 方法中，我們傳入一個 Dog 物件，然後調用它的 speak 方法。由於 Dog 覆寫了 Animal 中的 speak 方法，因此在調用 speak 方法時，輸出的是 Dog 的特定行為，而不是 Animal 的行為。這樣就違反了 LSP 的要求：父類別和子類別不可以互相替換使用，因為它們的行為不同。&lt;/p&gt;
 &lt;p&gt;以下是符合 LSP 的修改：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2366,7 +2370,7 @@ Encapsulation enables the programmer to hide the implementation details of the c
             <title type="text">Object Oriented Programming</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/oop/" />
             <id>https://example.com/posts/oop/</id>
-            <updated>2023-03-08T22:03:55&#43;00:00</updated>
+            <updated>2023-04-26T19:45:24&#43;01:00</updated>
             <published>2023-02-20T21:20:19&#43;00:00</published>
             <author>
                     <name>Daisy</name>
@@ -2396,15 +2400,19 @@ In OOP, objects in software are made up of data properties and methods that oper
 &lt;/ul&gt;
 &lt;h4 id=&#34;2-object-oriented-programming-two-abstractions&#34;&gt;2. Object-oriented programming two abstractions:&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Abstract: an abstract class cannot be directly instantiated, but can be inherited, and can contain both abstract and implemented methods.
-Interface: a definition of a set of methods that a class must implement to fulfill the contract.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Abstract: an abstract class cannot be directly instantiated, but can be inherited, and can contain both abstract and implemented methods.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interface: a definition of a set of methods that a class must implement to fulfill the contract.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Abstraction: Abstraction is the process of representing complex real-world objects as simpler classes or interfaces, which hides the implementation details and only exposes the object&amp;rsquo;s functionality and properties. By abstracting objects, the programmer can simplify the system&amp;rsquo;s complexity, making it easier to understand and manage.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;3-good-object-oriented-programming-principles-solid&#34;&gt;3. Good object-oriented programming principles: SOLID&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;S (Single Responsibility Principle): a class should have only one reason to change.&lt;/li&gt;
+&lt;li&gt;S (Single Responsibility Principle): a class should have only one function.&lt;/li&gt;
 &lt;li&gt;O (Open/Closed Principle): software entities should be open for extension but closed for modification.&lt;/li&gt;
 &lt;li&gt;L (Liskov Substitution Principle): objects of a superclass shall be replaceable with objects of its subclasses.&lt;/li&gt;
 &lt;li&gt;I (Interface Segregation Principle): a client should not be forced to depend on methods it does not use.&lt;/li&gt;
