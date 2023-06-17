@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-04-26T20:22:17&#43;01:00</updated>
+    <updated>2023-06-17T09:33:38&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,60 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">Ruby_blocks</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_blocks/" />
+            <id>https://example.com/posts/ruby_blocks/</id>
+            <updated>2023-06-17T09:33:35&#43;01:00</updated>
+            <published>2023-06-17T09:28:52&#43;01:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">Ruby Blocks In Ruby, a block is an anonymous code block that can be passed as a parameter to a method or used with iterator methods. A block can be seen as a reusable piece of code that can be called and executed when needed.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;ruby-blocks&#34;&gt;Ruby Blocks&lt;/h2&gt;
+&lt;p&gt;In Ruby, a block is an anonymous code block that can be passed as a parameter to a method or used with iterator methods. A block can be seen as a reusable piece of code that can be called and executed when needed.&lt;/p&gt;
+&lt;p&gt;The role of blocks in Ruby includes:&lt;/p&gt;
+&lt;p&gt;Iterators: Many Ruby methods allow you to pass a block as a parameter to iterate over or process elements during the execution of the method. For example, the each method can be used to iterate over each element in an array, and the times method can repeat a specified number of times.&lt;/p&gt;
+&lt;p&gt;Anonymous Functions: Blocks can be used to create anonymous functions and pass them as parameters to other methods. This allows us to define our own program logic in the appropriate context, enabling more flexible functionality.&lt;/p&gt;
+&lt;p&gt;Callbacks: Blocks can be invoked as callback functions when specific events occur. When certain conditions are met, you can call the block to execute the corresponding code. This is particularly useful in event-driven programming, asynchronous operations, or custom callback mechanisms.&lt;/p&gt;
+&lt;p&gt;By using blocks, you can manipulate code and data more flexibly and pass and execute your own program logic when needed.&lt;/p&gt;
+&lt;p&gt;在 Ruby 中，block（區塊）是一種匿名的程式碼塊，可以作為參數傳遞給方法或者使用迭代器方法。block 可以被視為一段可重複使用的程式碼，它可以在需要時被呼叫和執行。&lt;/p&gt;
+&lt;p&gt;block 在 Ruby 中的作用如下：&lt;/p&gt;
+&lt;p&gt;迭代器（Iterators）：許多 Ruby 方法允許你傳遞一個 block 作為參數，以便在方法的執行過程中進行迭代或處理。例如，each 方法可以用於遍歷陣列中的每個元素，而 times 方法可以重複執行指定次數的程式碼。&lt;/p&gt;
+&lt;p&gt;匿名函式（Anonymous Functions）：block 可以用於創建匿名函式，並將其作為參數傳遞給其他方法。這使得我們可以在適當的上下文中定義自己的程式邏輯，以實現更靈活的功能。&lt;/p&gt;
+&lt;p&gt;回呼（Callbacks）：block 可以在特定事件發生時被調用，作為回呼函式。當特定條件滿足時，你可以呼叫該 block 以執行相應的程式碼。這在處理事件驅動的程式設計、非同步操作或自訂回呼機制時非常有用。&lt;/p&gt;
+&lt;p&gt;透過使用 block，你可以更靈活地操作程式碼和資料，並在需要時傳遞和執行自己的程式邏輯。&lt;/p&gt;
+&lt;h2 id=&#34;block-vs-method&#34;&gt;Block vs Method&lt;/h2&gt;
+&lt;p&gt;In general, a method is a named and defined functionality in code that can be called multiple times at various places. On the other hand, a block is an anonymous piece of code that is often closely associated with a method and can be passed and invoked during the execution of the method. Blocks are commonly used for implementing iterators, callbacks, and customizing logic during method invocation.&lt;/p&gt;
+&lt;p&gt;Here are the key differences between methods and blocks:&lt;/p&gt;
+&lt;p&gt;Definition and Invocation: Methods are defined and named in the code, and they are called by using their names. Blocks, on the other hand, are anonymous and can be directly passed and invoked during method calls without being explicitly defined or named.&lt;/p&gt;
+&lt;p&gt;Scope: Methods have their own scope and lifecycle. They can be called multiple times in the code. Blocks, on the other hand, are closely tied to a method and exist only during the execution of that method.&lt;/p&gt;
+&lt;p&gt;Parameter Passing: Methods can accept parameters, and these parameters can be accessed within the method. Blocks can also accept parameters, usually passed using the yield statement or the &amp;amp; symbol, depending on the implementation of the method.&lt;/p&gt;
+&lt;p&gt;Control Flow: Methods can use the return statement to return a value from the method. They can also use break and next to control the flow of execution. Blocks, when invoked, can affect the control flow of the method or iteration using return, break, and next statements.&lt;/p&gt;
+&lt;p&gt;In summary, methods are named and defined functionalities in code that can be called multiple times. Blocks, on the other hand, are anonymous pieces of code that are often associated with methods and can be passed and invoked during the execution of the method. Blocks are commonly used for implementing iterators, callbacks, and customizing logic during method invocation.&lt;/p&gt;
+&lt;p&gt;在Ruby中，block和方法（method）之間有一些重要的區別，包括以下幾點：&lt;/p&gt;
+&lt;p&gt;定義和調用方式：方法可以在程式碼中定義並命名，然後通過名稱進行調用。而block是一段匿名的程式碼，可以在方法調用時直接傳遞，而不需要事先定義名稱。&lt;/p&gt;
+&lt;p&gt;作用範圍：方法具有自己的作用範圍和生命週期，可以在程式中多次調用。而block是與方法緊密結合的程式碼片段，它的生命週期僅在方法的執行期間存在。&lt;/p&gt;
+&lt;p&gt;參數傳遞：方法可以接受參數，並且在方法內部可以訪問這些參數。block通常也可以接受參數，但它通常是使用yield語句或者&amp;amp;符號進行傳遞的，具體取決於方法的實現。&lt;/p&gt;
+&lt;p&gt;控制流程：方法可以使用return語句從方法中返回值，並且可以在程式碼中使用break和next控制流程。block可以在方法內部根據需要被調用，並且可以使用return、break和next來影響方法或者迭代的控制流程。&lt;/p&gt;
+&lt;p&gt;總的來說，方法是在程式碼中定義的命名功能，可以在需要的地方多次調用。而block是一段匿名的程式碼，通常與方法緊密結合，可以在方法的執行期間被傳遞並調用。block通常用於實現迭代器、回呼和在方法調用時定制程式邏輯等場景。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Static and Dynamic languages</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/static_and_dynamic_languages/" />
