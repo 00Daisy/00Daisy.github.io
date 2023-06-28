@@ -21,13 +21,13 @@
             <webMaster>ysiad926@gmail.com (Daisy)</webMaster>
         
         
-        <lastBuildDate>Sat, 17 Jun 2023 09:33:38 &#43;0100</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jun 2023 23:23:25 &#43;0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
         
             <item>
-                <title>Ruby_blocks</title>
+                <title>Ruby Blocks</title>
                 <link>https://example.com/posts/ruby_blocks/</link>
                 <guid isPermaLink="true">https://example.com/posts/ruby_blocks/</guid>
                 <pubDate>Sat, 17 Jun 2023 09:28:52 &#43;0100</pubDate>

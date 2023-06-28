@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2023-06-17T09:33:35+01:00</lastmod>
+    <lastmod>2023-06-28T23:23:11+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/</loc>
-    <lastmod>2023-06-17T09:33:35+01:00</lastmod>
+    <lastmod>2023-06-28T23:23:11+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/ruby_blocks/</loc>
-    <lastmod>2023-06-17T09:33:35+01:00</lastmod>
+    <lastmod>2023-06-28T23:23:11+01:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/static_and_dynamic_languages/</loc>
     <lastmod>2023-04-14T22:21:52+01:00</lastmod>
