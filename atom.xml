@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Daisy&#39;s Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-06-28T23:23:25&#43;01:00</updated>
+    <updated>2023-10-04T22:36:30&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -16,6 +16,107 @@
             </author>
     
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">Data Structures</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/data_structures/" />
+            <id>https://example.com/posts/data_structures/</id>
+            <updated>2023-10-04T22:36:22&#43;01:00</updated>
+            <published>2023-10-04T22:28:54&#43;01:00</published>
+            <author>
+                    <name>Daisy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>ysiad926@gmail.com</email>
+                    </author>
+            <summary type="html">What are Data Structures Data structures are a fundamental concept in computer science and refer to the way data is organised and stored in a computer&amp;rsquo;s memory or storage system. They are essential for efficient data manipulation, retrieval, and management in software development.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;what-are-data-structures&#34;&gt;What are Data Structures&lt;/h2&gt;
+&lt;p&gt;Data structures are a fundamental concept in computer science and refer to the way data is organised and stored in a computer&amp;rsquo;s memory or storage system. They are essential for efficient data manipulation, retrieval, and management in software development.&lt;/p&gt;
+&lt;h2 id=&#34;common-data-structures-include&#34;&gt;Common Data Structures include:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Arrays: A collection of elements stored in contiguous memory locations, often accessed by an index.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Linked Lists: A linear data structure where elements are stored in nodes, and each node points to the next one in the sequence.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stacks: A data structure that follows the Last-In-First-Out (LIFO) principle, commonly used for managing function calls and expressions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Queues: A data structure that follows the First-In-First-Out (FIFO) principle, often used for managing tasks or processes in a sequential order.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trees: Hierarchical data structures with nodes connected by edges, commonly used in various applications like binary trees, AVL trees, and binary search trees.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Graphs: A collection of nodes (vertices) connected by edges, representing relationships or connections between elements.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hash Tables: Data structures that use a hash function to map keys to values, allowing for efficient retrieval of values based on their keys.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Heaps: Specialized tree-based structures used for tasks like implementing priority queues.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sets and Maps: Data structures for managing unique elements (sets) and key-value pairs (maps).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Strings: Collections of characters or symbols, with various methods for manipulation and searching.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;in-conclusion&#34;&gt;In conclusion&lt;/h2&gt;
+&lt;p&gt;The choice of data structure depends on the specific requirements of a problem or application. Each data structure has its own advantages and disadvantages in terms of time and space complexity, so selecting the appropriate one is crucial for efficient algorithm design and programming.&lt;/p&gt;
+&lt;h2 id=&#34;什麼是資料結構&#34;&gt;什麼是資料結構&lt;/h2&gt;
+&lt;p&gt;資料結構（Data Structures）是計算機科學中的一個重要概念，它涉及到如何組織和存儲數據以便於在計算機程序中進行高效的操作、檢索和管理。資料結構在軟體開發中起著關鍵作用。&lt;/p&gt;
+&lt;h2 id=&#34;常見的資料結構包括&#34;&gt;常見的資料結構包括：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;陣列（Arrays）：一組元素按照索引順序存儲在連續的內存位置中，通常通過索引訪問。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;鏈表（Linked Lists）：一種線性資料結構，其中元素以節點形式存儲，每個節點指向序列中的下一個節點。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;堆疊（Stacks）：一種遵循後進先出（LIFO）原則的資料結構，通常用於管理函數調用和表達式求值等任務。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;佇列（Queues）：一種遵循先進先出（FIFO）原則的資料結構，常用於管理任務或進程的順序執行。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;樹（Trees）：層次化的資料結構，節點通過邊相連，常用於各種應用，如二叉樹、AVL 樹和二叉搜索樹。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;圖（Graphs）：一組節點（頂點）通過邊相連，表示元素之間的關係或連接。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;哈希表（Hash Tables）：使用哈希函數將鍵映射到值的資料結構，允許基於鍵高效檢索值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;堆（Heaps）：用於實現優先佇列等任務的特殊樹結構。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;集合和映射（Sets and Maps）：用於管理唯一元素（集合）和鍵值對（映射）的資料結構。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字串（Strings）：字符或符號的集合，具有各種用於操作和搜索的方法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;小結&#34;&gt;小結&lt;/h2&gt;
+&lt;p&gt;選擇適當的資料結構取決於特定問題或應用的要求。每種資料結構都有其在時間和空間複雜性方面的優點和缺點，因此選擇適當的資料結構對於高效的算法設計和編程至關重要。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Ruby Blocks</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/ruby_blocks/" />
